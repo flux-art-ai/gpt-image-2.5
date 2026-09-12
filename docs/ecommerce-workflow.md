@@ -34,6 +34,18 @@
 
 如果生成结果混合了不同版本的特征，应退回重做，不要用“效果示意”掩盖商品信息不一致。涉及尺寸或性能的说明应引用真实规格，不能由图片推断。
 
+## 从代表图交接到可追踪批次
+
+代表图通过后，不要只把一张“看起来正确”的图片发给下一环节。为每个输出保存完整 SKU、图片用途、GPT Image 2.5 版本、递增修订号与验收状态，例如 `box-green-large-hero-sunburst-v03-approved.webp`。
+
+1. 保留未覆盖的原始商品图，单独保存提示词或修改要求。
+2. 记录本次使用 Flare 或 Sunburst，以及生成还是参考图编辑。
+3. 每轮只写清一个主要变化；返修后增加版本号，不覆盖已通过文件。
+4. 把最终图与完整 SKU 标签一起交给[商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite)、[SKU 批量图](https://flux-art.cc/zh/ai-ecommerce/sku-batch)或 [A+ 详情页](https://flux-art.cc/zh/ai-ecommerce/a-plus-content)。
+5. 批量结果按[系列款文件映射与验收](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/04-series-consistency.md)逐项回填。
+
+`approved` 只表示图片通过当前团队的交付清单，不表示平台审核通过。若后续修改包装、尺寸、颜色或配件，原验收结论不能自动沿用。电脑端文件夹与备份方法见[桌面交付指南](../articles/desktop-delivery-guide.md)。
+
 ## 一组图片的交付检查
 
 - 每张图片是否属于正确商品与 SKU。
