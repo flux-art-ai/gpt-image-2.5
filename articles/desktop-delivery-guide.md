@@ -20,6 +20,20 @@ Auto 会根据任务调度资源，固定档位更利于重复比较；无论选
 
 Flux Art 由 MORNING STAR INDUSTRY LIMITED 运营，是多模型 AI 视觉创作与生产平台；[GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5) 由 OpenAI 提供。Flux Art 网页的账号、计费和任务记录与 OpenAI 原生产品相互独立。初次操作可先看 [首张图教程](https://gptimagezh.com/tutorials/gpt-image-2-5-first-image/)，正式交付则按 [图片交付检查表](https://gptimagezh.com/tutorials/gpt-image-2-5-image-delivery/)复核。
 
+## 把 GPT Image 2.5 成品整理成渠道包
+
+先把通过检查的 Flare 或 Sunburst 文件保存为母版，再从母版复制渠道导出版本。不要在唯一母版上直接裁切、压缩或改字；这些操作会改变验收对象，需要增加版本号并重新检查。
+
+一份可交接的渠道包至少包含：
+
+1. 完整 SKU、原始商品图与 GPT Image 2.5 实际版本；
+2. 已验收母版、提示词或修改要求、质量与尺寸记录；
+3. 每个渠道文件的图片用途、像素、比例、格式和规则核对日期；
+4. 文件清单、负责人、验收结论与退回原因；
+5. 若继续制作套图或详情模块，记录实际使用的[商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite)、[SKU 批量图](https://flux-art.cc/zh/ai-ecommerce/sku-batch)或 [A+ 详情页](https://flux-art.cc/zh/ai-ecommerce/a-plus-content)，不把工具名称当作 GPT Image 2.5 的证明。
+
+尺寸和格式应从目标渠道及类目的当前规则取得；模型页面的 1K、2K、4K 档位不能代替上架规格。完整的责任与退回字段见[合规与渠道交付清单](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/06-compliance.md)。渠道包通过团队验收也不代表平台审核通过。
+
 ## 使用补充
 
 ### 电脑端需要安装专用软件吗？
