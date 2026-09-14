@@ -62,6 +62,18 @@
 
 只想完成单项商品换景，还可以进入[一键换背景](https://flux-art.cc/zh/ai-ecommerce/product-background)。这是按任务组织的工具入口，不代表它使用 GPT Image 2.5；需要整套图片时再看[商品图与套图衔接](ecommerce-workflow.md)。
 
+## 渠道退回后，还要继续用 GPT Image 2.5 吗？
+
+只有退回原因位于生成或编辑结果本身时，才需要回到模型。把退回图与已验收母版、渠道当前要求并排查看，可以避免在正确母版上做多余改动。
+
+| 退回原因 | 是否回到 GPT Image 2.5 | 下一步 |
+|---|---|---|
+| 商品结构、材质、包装文字或指定保留区域错误 | 是 | 回到真实原图或最近通过版本，在 [GPT Image 2.5 使用入口](https://flux-art.cc/zh/models/gpt-image-2-5)选择 Flare 或 Sunburst，一次只修一个目标；完成后重新检查所有保留项 |
+| 母版正确，仅渠道文件裁切、压缩、格式或尺寸错误 | 否 | 保留母版，只重新导出衍生文件，并按[合规与渠道交付清单](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/06-compliance.md)复核 |
+| 渠道规格、活动文案或交付范围变更 | 视修改内容而定 | 建立新版本并记录需求来源；需要一整套商品素材时进入[商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite)，多 SKU 任务进入 [SKU 批量图](https://flux-art.cc/zh/ai-ecommerce/sku-batch) |
+
+不要覆盖原母版或已退回文件。保留退回原因和修正结果，才能在下一轮确认问题已经消失且没有新增商品事实错误。
+
 ## FAQ
 
 **Q: 参考图编辑一定要选 Sunburst 吗？**
