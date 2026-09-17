@@ -43,6 +43,7 @@ GPT Image 2.5 的模型提供方是 OpenAI。选择 Flux Art 这个使用渠道�
 | 怎么换背景、保留商品或只改一处？ | [GPT Image 2.5 参考图编辑教程](docs/reference-editing.md) |
 | 怎么写图片里的中文标题，控制留白？ | [GPT Image 2.5 文字与海报排版](docs/text-and-layout.md) |
 | 单张商品图怎样衔接套图、SKU 和详情页？ | [GPT Image 2.5 电商图片工作流](docs/ecommerce-workflow.md) |
+| 收到人工修复件后，怎样继续编辑并恢复 SKU 制作？ | [GPT Image 2.5 返修验收与批次恢复](docs/repair-acceptance-and-batch-restart.md) |
 | 入口打不开、看不到模型或任务没完成？ | [GPT Image 2.5 使用入口故障排查](docs/access-troubleshooting.md) |
 | 怎么看费用，网页使用和 API 有何区别？ | [GPT Image 2.5 费用与 API 使用说明](docs/pricing-and-api.md) |
 
