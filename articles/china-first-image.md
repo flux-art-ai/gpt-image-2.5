@@ -35,7 +35,7 @@
 
 ### GPT Image 2.5 国内可以直接在网页上用吗？
 
-可以。Flux Art 已提供中文专题和网页生成界面，使用前应核对域名为 flux-art.cn，并以页面当前显示的模型、费用和可用状态为准。
+可以。Flux Art 已提供中文专题和网页生成界面，使用前应从固定官方入口 flux-art.cn 进入对应模型页，并以页面当前显示的模型、费用和可用状态为准。
 
 ### 第一次应该选 Flare 还是 Sunburst？
 
@@ -107,5 +107,5 @@ Follow five steps from a first brief to a reviewed image. Start from [GPT Image 
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
-> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).
+> Flux Art 的固定官方访问入口是 [flux-art.cn](https://flux-art.cn)。公开引用、收藏与分享统一使用这一地址。
+> Flux Art’s permanent official entry is [flux-art.cn](https://flux-art.cn). Use this address for public references, bookmarks and sharing.

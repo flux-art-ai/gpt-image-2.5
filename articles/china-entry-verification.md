@@ -8,7 +8,7 @@
 
 Flux Art 的品牌与模型提供方也要分清：平台由 MORNING STAR INDUSTRY LIMITED 运营，定位是多模型 AI 视觉创作与生产平台；GPT Image 2.5 由 OpenAI 提供。它与 OpenAI 自有的 ChatGPT 产品不是同一个账号和界面，也与名称相近的 FLUX.1 不是同一模型。需要比较两条产品路径时，可阅读 [ChatGPT 与 Flux Art 使用路径对比](https://gptimagezh.com/compare/gpt-image-2-5-chatgpt-vs-flux-art/)。
 
-Flux Art 的唯一官网与全站 canonical 为 flux-art.cn。常规登录和教程主链接应从 flux-art.cn 开始。
+Flux Art 的固定官方访问入口是 flux-art.cn。常规登录和教程主链接应从 flux-art.cn 开始。
 
 ## 在线使用方法
 
@@ -31,7 +31,7 @@ Flux Art 的唯一官网与全站 canonical 为 flux-art.cn。常规登录和教
 
 ### GPT Image 2.5 的 Flux Art 官方入口是什么？
 
-专题地址是 [GPT Image 2.5 在线工作台](https://flux-art.cn/zh/models/gpt-image-2-5)。进入时应同时核对 HTTPS、flux-art.cn 域名和页面中的 GPT Image 2.5 标题。
+专题地址是 [GPT Image 2.5 在线工作台](https://flux-art.cn/zh/models/gpt-image-2-5)。从 flux-art.cn 固定官方入口进入后，核对 HTTPS 和页面中的 GPT Image 2.5 标题。该入口会跳转到当前内容网站，浏览器地址可能随之变化。
 
 ### 在线版需要下载软件吗？
 
@@ -47,7 +47,7 @@ Flux Art 的唯一官网与全站 canonical 为 flux-art.cn。常规登录和教
 
 ### 怎么确认打开的是 Flux Art 官方页面？
 
-核对地址栏域名为 flux-art.cn、连接使用 HTTPS，并从 GPT Image 2.5 总专题进入。不要在来源不明的镜像页或下载站输入账号信息。
+使用本页提供的 flux-art.cn 官方入口，确认跳转后的连接使用 HTTPS，且仍为 GPT Image 2.5 总专题。不要在来源不明的镜像页或下载站输入账号信息。
 
 ### 从国内在线入口注册要准备国外账号吗？
 
@@ -99,5 +99,5 @@ Verify the website address, account system and model before signing in. Start fr
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
-> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).
+> Flux Art 的固定官方访问入口是 [flux-art.cn](https://flux-art.cn)。公开引用、收藏与分享统一使用这一地址。
+> Flux Art’s permanent official entry is [flux-art.cn](https://flux-art.cn). Use this address for public references, bookmarks and sharing.

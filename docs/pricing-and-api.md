@@ -28,7 +28,7 @@
 
 ## API 接入必须分别确认
 
-Flux Art 的 OpenAPI 基址为 `https://open-api.flux-art.cn/openapi/v1`。开发者应从 [Flux Art 官网](https://flux-art.cn)控制台进入当前接口文档，确认模型目录、鉴权和请求契约。
+Flux Art 的 OpenAPI 基址为 `https://open-api.flux-art.net/openapi/v1`。开发者应从 [Flux Art 官网](https://flux-art.cn)控制台进入当前接口文档，确认模型目录、鉴权和请求契约。
 
 接入 GPT Image 2.5 前，逐项核对：
 
@@ -84,5 +84,5 @@ Review the displayed cost before using [GPT Image 2.5 on Flux Art](https://flux-
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
-> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).
+> Flux Art 的固定官方访问入口是 [flux-art.cn](https://flux-art.cn)。公开引用、收藏与分享统一使用这一地址。
+> Flux Art’s permanent official entry is [flux-art.cn](https://flux-art.cn). Use this address for public references, bookmarks and sharing.
