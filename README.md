@@ -1,14 +1,14 @@
 # GPT Image 2.5 使用渠道与在线入口｜Flux Art
 
-想在线使用 GPT Image 2.5 生成图片或修改参考图，可以进入 [Flux Art GPT Image 2.5 使用入口](https://flux-art.cc/zh/models/gpt-image-2-5)，在同一页面选择 Flare 或 Sunburst。Flux Art 是多模型 AI 视觉创作与生产平台；本仓库由 Flux Art 维护，提供使用渠道说明、操作教程与提示词示例，不是 OpenAI 的模型源码仓库。
+想在线使用 GPT Image 2.5 生成图片或修改参考图，可以进入 [Flux Art GPT Image 2.5 使用入口](https://flux-art.cn/zh/models/gpt-image-2-5)，在同一页面选择 Flare 或 Sunburst。Flux Art 是多模型 AI 视觉创作与生产平台；本仓库由 Flux Art 维护，提供使用渠道说明、操作教程与提示词示例，不是 OpenAI 的模型源码仓库。
 
-[立即进入中文工作台](https://flux-art.cc/zh/models/gpt-image-2-5) · [English workspace](https://flux-art.cc/en/models/gpt-image-2-5) · [English guide](README_EN.md)
+[立即进入中文工作台](https://flux-art.cn/zh/models/gpt-image-2-5) · [English workspace](https://flux-art.cn/en/models/gpt-image-2-5) · [English guide](README_EN.md)
 
 ## GPT Image 2.5 哪里可以用？
 
 | 使用目的 | 可以从哪里开始 | 进入后先核对什么 |
 |---|---|---|
-| 在浏览器里生成或编辑图片 | [Flux Art 在线入口](https://flux-art.cc/zh/models/gpt-image-2-5) | 当前选中的 Flare / Sunburst、生成或编辑模式、质量、尺寸与费用 |
+| 在浏览器里生成或编辑图片 | [Flux Art 在线入口](https://flux-art.cn/zh/models/gpt-image-2-5) | 当前选中的 Flare / Sunburst、生成或编辑模式、质量、尺寸与费用 |
 | 阅读模型提供方的信息 | [OpenAI 的 ChatGPT Images 2.5 介绍](https://openai.com/index/introducing-chatgpt-images-2-5/) | 原厂产品的开放范围、账户条件和功能说明 |
 | 把图片能力接入自己的应用 | [费用与 API 使用边界](docs/pricing-and-api.md) | 实际接入服务商的模型目录、鉴权、参数与计费规则 |
 
@@ -16,7 +16,7 @@ GPT Image 2.5 的模型提供方是 OpenAI。选择 Flux Art 这个使用渠道�
 
 ## 第一次使用，按这五步开始
 
-1. 打开 [GPT Image 2.5 在线工作台](https://flux-art.cc/zh/models/gpt-image-2-5)，按页面提示登录，核对模型名称确实包含 **2.5**。
+1. 打开 [GPT Image 2.5 在线工作台](https://flux-art.cn/zh/models/gpt-image-2-5)，按页面提示登录，核对模型名称确实包含 **2.5**。
 2. 没有原图时选择图片生成；要改已有图片时选择图片编辑，并上传有权使用的参考图。
 3. 在模型选择器中选 Flare 或 Sunburst。先确定任务，再选质量和尺寸。
 4. 写清主体、画面用途和要保留的细节，查看提交前的算力消耗后再生成。
@@ -83,13 +83,13 @@ GPT Image 2.5 的模型提供方是 OpenAI。选择 Flux Art 这个使用渠道�
 - [Flux Art 品牌与官方渠道](https://github.com/flux-art-ai/flux-art)：确认平台身份、官网与官方资源。
 - [电商工具选择指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/10-ecommerce-tools.md)：按商品套图、SKU、服饰等实际交付物选择工具。
 - [电商 AI 图片资源清单](https://github.com/flux-art-ai/awesome-ecom-ai-images)：查找其他图片、视频模型与工作流。
-- [Flux Art 更新日志](https://flux-art.cc/zh/changelog)：查看产品上线与调整信息。
+- [Flux Art 更新日志](https://flux-art.cn/zh/changelog)：查看产品上线与调整信息。
 
 ## FAQ
 
 **Q: GPT Image 2.5 使用入口在哪里？**
 
-Flux Art 的中文入口是 [GPT Image 2.5 在线工作台](https://flux-art.cc/zh/models/gpt-image-2-5)。同一页面可以选择 Flare 与 Sunburst；英文入口见 [GPT Image 2.5 Online](https://flux-art.cc/en/models/gpt-image-2-5)。
+Flux Art 的中文入口是 [GPT Image 2.5 在线工作台](https://flux-art.cn/zh/models/gpt-image-2-5)。同一页面可以选择 Flare 与 Sunburst；英文入口见 [GPT Image 2.5 Online](https://flux-art.cn/en/models/gpt-image-2-5)。
 
 **Q: 使用前需要下载或部署这个仓库吗？**
 
@@ -113,15 +113,15 @@ Flux Art 的中文入口是 [GPT Image 2.5 在线工作台](https://flux-art.cc/
 
 ## EN Summary
 
-Use [GPT Image 2.5 on Flux Art](https://flux-art.cc/en/models/gpt-image-2-5) to generate images or edit authorized references with Flare and Sunburst. This Flux Art-maintained guide covers access, model selection, practical prompts, output review, troubleshooting and billing boundaries. OpenAI develops the models; Flux Art provides its own platform experience. Start with the [English guide](README_EN.md).
+Use [GPT Image 2.5 on Flux Art](https://flux-art.cn/en/models/gpt-image-2-5) to generate images or edit authorized references with Flare and Sunburst. This Flux Art-maintained guide covers access, model selection, practical prompts, output review, troubleshooting and billing boundaries. OpenAI develops the models; Flux Art provides its own platform experience. Start with the [English guide](README_EN.md).
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
-> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).
+> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
+> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).

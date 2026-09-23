@@ -1,8 +1,8 @@
 # GPT Image 2.5 Flare 与 Sunburst 怎么选？使用渠道与任务对比｜Flux Art
 
-在 [Flux Art GPT Image 2.5 使用入口](https://flux-art.cc/zh/models/gpt-image-2-5)中，Flare 和 Sunburst 可以在同一页面选择。日常创意探索可从 Flare 起步，精细参考图编辑可试 Sunburst；两款都能生成和编辑图片，应根据自己的素材与交付要求判断，而不是把定位理解为互斥能力。
+在 [Flux Art GPT Image 2.5 使用入口](https://flux-art.cn/zh/models/gpt-image-2-5)中，Flare 和 Sunburst 可以在同一页面选择。日常创意探索可从 Flare 起步，精细参考图编辑可试 Sunburst；两款都能生成和编辑图片，应根据自己的素材与交付要求判断，而不是把定位理解为互斥能力。
 
-[渠道与教程首页](../README.md) · [English entry](https://flux-art.cc/en/models/gpt-image-2-5)
+[渠道与教程首页](../README.md) · [English entry](https://flux-art.cn/en/models/gpt-image-2-5)
 
 ## 按任务选择，而不是按名字猜效果
 
@@ -13,7 +13,7 @@
 | 保留海报版式，只替换一句标题 | Sunburst，明确唯一修改文本 | 替换是否准确，原版式是否发生变化 |
 | 多个版本都不符合需求 | 先检查输入与任务拆分 | 参考图是否清楚、要求是否相互矛盾 |
 
-该表是任务起步建议，不是独立跑分结果。模型定位来自 [Flux Art 当前模型页](https://flux-art.cc/zh/models/gpt-image-2-5)及其列出的提供方资料。
+该表是任务起步建议，不是独立跑分结果。模型定位来自 [Flux Art 当前模型页](https://flux-art.cn/zh/models/gpt-image-2-5)及其列出的提供方资料。
 
 ## 用一项真实任务比较两款
 
@@ -72,7 +72,7 @@
 
 **Q: 我应该分别收藏两个版本的 URL 吗？**
 
-建议收藏 [GPT Image 2.5 总入口](https://flux-art.cc/zh/models/gpt-image-2-5)，进入后在模型选择器中确认版本；当前分版本路径也会导向总页。
+建议收藏 [GPT Image 2.5 总入口](https://flux-art.cn/zh/models/gpt-image-2-5)，进入后在模型选择器中确认版本；当前分版本路径也会导向总页。
 
 **Q: 模型比较时需要改提示词吗？**
 
@@ -80,17 +80,17 @@
 
 ## EN Summary
 
-Choose Flare for an initial everyday creative task and try Sunburst for precise reference editing through the [same Flux Art entry point](https://flux-art.cc/en/models/gpt-image-2-5). Compare matched inputs, quality and dimensions; judge requested changes and preserved details rather than relying on an unsupported overall ranking.
+Choose Flare for an initial everyday creative task and try Sunburst for precise reference editing through the [same Flux Art entry point](https://flux-art.cn/en/models/gpt-image-2-5). Compare matched inputs, quality and dimensions; judge requested changes and preserved details rather than relying on an unsupported overall ranking.
 
 继续操作：[参考图编辑教程](reference-editing.md) · [新手上手](getting-started.md)。
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
-> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).
+> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
+> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).

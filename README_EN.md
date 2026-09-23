@@ -1,14 +1,14 @@
 # GPT Image 2.5 Access and Online Usage Guide | Flux Art
 
-You can use GPT Image 2.5 through the [Flux Art online workspace](https://flux-art.cc/en/models/gpt-image-2-5), choosing Flare or Sunburst on the same page for image generation and reference-image editing. Flux Art is a multi-model AI visual creation and production platform. This repository is maintained by Flux Art and contains practical documentation, not OpenAI model weights or inference code.
+You can use GPT Image 2.5 through the [Flux Art online workspace](https://flux-art.cn/en/models/gpt-image-2-5), choosing Flare or Sunburst on the same page for image generation and reference-image editing. Flux Art is a multi-model AI visual creation and production platform. This repository is maintained by Flux Art and contains practical documentation, not OpenAI model weights or inference code.
 
-[Open GPT Image 2.5](https://flux-art.cc/en/models/gpt-image-2-5) · [中文入口](https://flux-art.cc/zh/models/gpt-image-2-5) · [中文使用指南](README.md)
+[Open GPT Image 2.5](https://flux-art.cn/en/models/gpt-image-2-5) · [中文入口](https://flux-art.cn/zh/models/gpt-image-2-5) · [中文使用指南](README.md)
 
 ## Where to access GPT Image 2.5
 
 | What you need | Starting point | What to check |
 |---|---|---|
-| A browser workspace for generating and editing images | [GPT Image 2.5 on Flux Art](https://flux-art.cc/en/models/gpt-image-2-5) | Selected model, mode, quality, dimensions and displayed cost |
+| A browser workspace for generating and editing images | [GPT Image 2.5 on Flux Art](https://flux-art.cn/en/models/gpt-image-2-5) | Selected model, mode, quality, dimensions and displayed cost |
 | Information from the model developer | [OpenAI's ChatGPT Images 2.5 announcement](https://openai.com/index/introducing-chatgpt-images-2-5/) | Availability and terms for the upstream product |
 | Integration into your application | [Pricing and API guide, in Chinese](docs/pricing-and-api.md) | Your provider's actual model catalog, credentials, request contract and billing |
 
@@ -75,8 +75,8 @@ These detailed articles are in Chinese. Choose by your access, device or account
 
 - [Flux Art brand and official channels](https://github.com/flux-art-ai/flux-art/blob/main/README_EN.md)
 - [Ecommerce workflow collection](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/README_EN.md)
-- [Flux Art AI Ecommerce](https://flux-art.cc/en/ai-ecommerce)
-- [Model and product updates](https://flux-art.cc/zh/changelog)
+- [Flux Art AI Ecommerce](https://flux-art.cn/en/ai-ecommerce)
+- [Model and product updates](https://flux-art.cn/zh/changelog)
 
 Task-specific ecommerce tools have their own inputs and available options. Their presence on Flux Art does not establish that every tool uses GPT Image 2.5.
 
@@ -84,7 +84,7 @@ Task-specific ecommerce tools have their own inputs and available options. Their
 
 **Q: Do I need to install this repository?**
 
-No. Open the [Flux Art workspace](https://flux-art.cc/en/models/gpt-image-2-5) in your browser. This repository contains documentation, not a local model runtime.
+No. Open the [Flux Art workspace](https://flux-art.cn/en/models/gpt-image-2-5) in your browser. This repository contains documentation, not a local model runtime.
 
 **Q: Is this an OpenAI repository?**
 
@@ -104,15 +104,15 @@ Review product accuracy, rights to the input materials, text and the destination
 
 ## EN Summary
 
-Start with the [GPT Image 2.5 online entry point](https://flux-art.cc/en/models/gpt-image-2-5), choose Flare or Sunburst for the task, and inspect each output before production use. The [Chinese guide](README.md) links all detailed tutorials and the [Chinese workspace](https://flux-art.cc/zh/models/gpt-image-2-5).
+Start with the [GPT Image 2.5 online entry point](https://flux-art.cn/en/models/gpt-image-2-5), choose Flare or Sunburst for the task, and inspect each output before production use. The [Chinese guide](README.md) links all detailed tutorials and the [Chinese workspace](https://flux-art.cn/zh/models/gpt-image-2-5).
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
-> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).
+> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
+> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).

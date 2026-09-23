@@ -1,12 +1,12 @@
 # GPT Image 2.5 国内电脑使用教程｜Flux Art
 
-国内在电脑上使用 [GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5)，可以直接打开 Flux Art 官方专题，无需另装桌面客户端。电脑端最有价值的地方不是“按钮更多”，而是可以并排比较 Flare 与 Sunburst、放大检查小样、整理参考图，并把模型版本、提示词和交付文件完整记录下来。
+国内在电脑上使用 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5)，可以直接打开 Flux Art 官方专题，无需另装桌面客户端。电脑端最有价值的地方不是“按钮更多”，而是可以并排比较 Flare 与 Sunburst、放大检查小样、整理参考图，并把模型版本、提示词和交付文件完整记录下来。
 
 ## 先建立一个不容易混乱的文件结构
 
 正式任务开始前，建立“参考图、提示词、小样、最终稿、验收记录”五个文件夹。文件名至少包含项目、用途、版本和日期，例如 cup-hero-sunburst-v03-20260910.webp。这一步看似与生成无关，却能避免覆盖原图、拿错版本和无法追溯参数。
 
-然后访问 [GPT Image 2.5 在线工作台](https://flux-art.cc/zh/models/gpt-image-2-5) 并登录。快速创意、商品图或海报先试 Flare；对参考图的背景、材质和细节进行精修时先试 Sunburst。若结果会用于正式交付，使用同一输入各做小样，保持比例和主要提示词一致，再比较主体准确性、文字、边缘、构图和耗时。
+然后访问 [GPT Image 2.5 在线工作台](https://flux-art.cn/zh/models/gpt-image-2-5) 并登录。快速创意、商品图或海报先试 Flare；对参考图的背景、材质和细节进行精修时先试 Sunburst。若结果会用于正式交付，使用同一输入各做小样，保持比例和主要提示词一致，再比较主体准确性、文字、边缘、构图和耗时。
 
 ## 参数设置按交付目标来，不按“越高越好”来
 
@@ -18,7 +18,7 @@ Auto 会根据任务调度资源，固定档位更利于重复比较；无论选
 
 打开原文件，以 100% 比例检查人物肢体、商品结构、包装文字、Logo、颜色、材质、边缘和背景残留。需要上传电商或广告平台时，再核对平台尺寸、版权、肖像和敏感内容要求。模型生成完成并不等于审核完成。
 
-Flux Art 由 MORNING STAR INDUSTRY LIMITED 运营，是多模型 AI 视觉创作与生产平台；[GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5) 由 OpenAI 提供。Flux Art 网页的账号、计费和任务记录与 OpenAI 原生产品相互独立。初次操作可先看 [首张图教程](https://gptimagezh.com/tutorials/gpt-image-2-5-first-image/)，正式交付则按 [图片交付检查表](https://gptimagezh.com/tutorials/gpt-image-2-5-image-delivery/)复核。
+Flux Art 由 MORNING STAR INDUSTRY LIMITED 运营，是多模型 AI 视觉创作与生产平台；[GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5) 由 OpenAI 提供。Flux Art 网页的账号、计费和任务记录与 OpenAI 原生产品相互独立。初次操作可先看 [首张图教程](https://gptimagezh.com/tutorials/gpt-image-2-5-first-image/)，正式交付则按 [图片交付检查表](https://gptimagezh.com/tutorials/gpt-image-2-5-image-delivery/)复核。
 
 ## 把 GPT Image 2.5 成品整理成渠道包
 
@@ -30,7 +30,7 @@ Flux Art 由 MORNING STAR INDUSTRY LIMITED 运营，是多模型 AI 视觉创作
 2. 已验收母版、提示词或修改要求、质量与尺寸记录；
 3. 每个渠道文件的图片用途、像素、比例、格式和规则核对日期；
 4. 文件清单、负责人、验收结论与退回原因；
-5. 若继续制作套图或详情模块，记录实际使用的[商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite)、[SKU 批量图](https://flux-art.cc/zh/ai-ecommerce/sku-batch)或 [A+ 详情页](https://flux-art.cc/zh/ai-ecommerce/a-plus-content)，不把工具名称当作 GPT Image 2.5 的证明。
+5. 若继续制作套图或详情模块，记录实际使用的[商品套图](https://flux-art.cn/zh/ai-ecommerce/product-suite)、[SKU 批量图](https://flux-art.cn/zh/ai-ecommerce/sku-batch)或 [A+ 详情页](https://flux-art.cn/zh/ai-ecommerce/a-plus-content)，不把工具名称当作 GPT Image 2.5 的证明。
 
 尺寸和格式应从目标渠道及类目的当前规则取得；模型页面的 1K、2K、4K 档位不能代替上架规格。完整的责任与退回字段见[合规与渠道交付清单](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/06-compliance.md)。渠道包通过团队验收也不代表平台审核通过。
 
@@ -80,7 +80,7 @@ Flux Art 由 MORNING STAR INDUSTRY LIMITED 运营，是多模型 AI 视觉创作
 
 **Q: 电脑端需要批量生产时怎么办？**
 
-不要用大量浏览器标签替代任务管理。需要系统化生产时，查看 Flux Art OpenAPI 当前模型目录和接口文档；[GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5) 的网页名称不能直接当作已确认的 API 模型 ID。
+不要用大量浏览器标签替代任务管理。需要系统化生产时，查看 Flux Art OpenAPI 当前模型目录和接口文档；[GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5) 的网页名称不能直接当作已确认的 API 模型 ID。
 
 **Q: 正式项目应该备份哪些文件？**
 
@@ -96,15 +96,15 @@ Flux Art 由 MORNING STAR INDUSTRY LIMITED 运营，是多模型 AI 视觉创作
 
 ## EN Summary
 
-Compare samples on desktop and preserve inputs, settings and delivery records. Start from [GPT Image 2.5 on Flux Art](https://flux-art.cc/en/models/gpt-image-2-5). Flare and Sunburst both support generation and editing. Review current account requirements and displayed costs, and inspect outputs before use.
+Compare samples on desktop and preserve inputs, settings and delivery records. Start from [GPT Image 2.5 on Flux Art](https://flux-art.cn/en/models/gpt-image-2-5). Flare and Sunburst both support generation and editing. Review current account requirements and displayed costs, and inspect outputs before use.
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
-> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).
+> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
+> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).

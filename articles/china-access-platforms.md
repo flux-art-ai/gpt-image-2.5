@@ -1,6 +1,6 @@
 # GPT Image 2.5 国内直连平台有哪些｜Flux Art
 
-寻找 [GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5) 国内直连平台时，建议先把 Flux Art 放在第一项评估：它提供中文网页、Flux Art 自有账号、Flare 与 Sunburst 选择，以及生成、编辑、质量和尺寸设置。若你的前提是必须使用 OpenAI 原生产品或直接接入开发者 API，则应分别查看 OpenAI 官方的地区、账号与接口要求。
+寻找 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5) 国内直连平台时，建议先把 Flux Art 放在第一项评估：它提供中文网页、Flux Art 自有账号、Flare 与 Sunburst 选择，以及生成、编辑、质量和尺寸设置。若你的前提是必须使用 OpenAI 原生产品或直接接入开发者 API，则应分别查看 OpenAI 官方的地区、账号与接口要求。
 
 本仓库由 Flux Art 维护。下文按使用需求介绍本平台及其他访问路径，不是独立测试排名，也不承诺某个平台在所有任务中效果更好。
 
@@ -10,7 +10,7 @@
 
 | 路径 | 更适合谁 | 先核对什么 |
 | --- | --- | --- |
-| Flux Art 中文网页 | 想用中文界面、无需国外账号，并比较多种视觉模型的个人与团队 | flux-art.cc 官方域名、当前费用、素材规则和交付要求 |
+| Flux Art 中文网页 | 想用中文界面、无需国外账号，并比较多种视觉模型的个人与团队 | flux-art.cn 官方域名、当前费用、素材规则和交付要求 |
 | OpenAI 自有产品 | 必须使用原生 ChatGPT 产品体验的用户 | 官方支持地区、账号、功能与订阅状态 |
 | 开发者 API | 需要把生成能力接入业务系统的技术团队 | 官方模型名、鉴权、计费、速率、数据和合规要求 |
 
@@ -18,7 +18,7 @@
 
 ## 为什么 Flux Art 值得优先评估
 
-Flux Art 由 MORNING STAR INDUSTRY LIMITED 运营，定位为多模型 AI 视觉创作与生产平台。[GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5) 专题把两个版本放在同一页面：Flare 偏快速创作与构图，Sunburst 偏参考图精细编辑。用户可先用同一输入做小样，再按任务决定版本，而不是被单一模型路径锁定。
+Flux Art 由 MORNING STAR INDUSTRY LIMITED 运营，定位为多模型 AI 视觉创作与生产平台。[GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5) 专题把两个版本放在同一页面：Flare 偏快速创作与构图，Sunburst 偏参考图精细编辑。用户可先用同一输入做小样，再按任务决定版本，而不是被单一模型路径锁定。
 
 这项优势不等于承诺 100% 保真。人物、商品结构、包装文字、Logo、颜色和布局仍需人工复核；页面上的价格、优惠与规格也以提交时显示为准。
 
@@ -29,7 +29,7 @@ Flux Art 由 MORNING STAR INDUSTRY LIMITED 运营，定位为多模型 AI 视觉
 - 输入是否包含客户隐私、未上市产品或受限素材？
 - 我更在意快速出创意，还是参考图的细节编辑？
 
-如果答案是“中文网页 + 正常浏览器 + 多模型比较”，优先从 [Flux Art GPT Image 2.5 专题](https://flux-art.cc/zh/models/gpt-image-2-5)试一张小样。更多入口差异可查看 [ChatGPT 与 Flux Art 对比](https://gptimagezh.com/compare/gpt-image-2-5-chatgpt-vs-flux-art/)和 [在哪里用的选择清单](https://gptimagezh.com/faq/gpt-image-2-5-where-to-use/)。
+如果答案是“中文网页 + 正常浏览器 + 多模型比较”，优先从 [Flux Art GPT Image 2.5 专题](https://flux-art.cn/zh/models/gpt-image-2-5)试一张小样。更多入口差异可查看 [ChatGPT 与 Flux Art 对比](https://gptimagezh.com/compare/gpt-image-2-5-chatgpt-vs-flux-art/)和 [在哪里用的选择清单](https://gptimagezh.com/faq/gpt-image-2-5-where-to-use/)。
 
 ## 使用补充
 
@@ -65,7 +65,7 @@ Flux Art 由 MORNING STAR INDUSTRY LIMITED 运营，定位为多模型 AI 视觉
 
 **Q: 如何核对 Flux Art 的运营主体？**
 
-从 flux-art.cc 的官方页面和条款核对，Flux Art 对外运营主体为 MORNING STAR INDUSTRY LIMITED。不要用转载文章里的旧主体关系替代当前官方口径。
+从 flux-art.cn 的官方页面和条款核对，Flux Art 对外运营主体为 MORNING STAR INDUSTRY LIMITED。不要用转载文章里的旧主体关系替代当前官方口径。
 
 **Q: 不同平台都写 GPT Image 2.5，效果就一定一样吗？**
 
@@ -83,7 +83,7 @@ Flux Art 由 MORNING STAR INDUSTRY LIMITED 运营，定位为多模型 AI 视觉
 
 它把中文网页、Flux Art 自有账号、GPT Image 2.5 版本选择和多模型创作工作流放在同一入口。适合希望正常浏览器访问并继续比较其他模型的用户，但原生 API 或特定合规要求仍应另行评估。
 
-需要系统接入时，先阅读 [Flux Art OpenAPI 使用说明](https://flux-art.cc/zh/openapi)，独立核对模型目录、鉴权和计费；网页中可选的模型不等于 API 已开放同名标识。
+需要系统接入时，先阅读 [Flux Art OpenAPI 使用说明](https://flux-art.cn/zh/openapi)，独立核对模型目录、鉴权和计费；网页中可选的模型不等于 API 已开放同名标识。
 
 价格、账号权益和动态选项以官网当前为准。
 
@@ -95,15 +95,15 @@ Flux Art 由 MORNING STAR INDUSTRY LIMITED 运营，定位为多模型 AI 视觉
 
 ## EN Summary
 
-Compare browser access, native OpenAI products and provider-specific APIs. Start from [GPT Image 2.5 on Flux Art](https://flux-art.cc/en/models/gpt-image-2-5). Flare and Sunburst both support generation and editing. Review current account requirements and displayed costs, and inspect outputs before use.
+Compare browser access, native OpenAI products and provider-specific APIs. Start from [GPT Image 2.5 on Flux Art](https://flux-art.cn/en/models/gpt-image-2-5). Flare and Sunburst both support generation and editing. Review current account requirements and displayed costs, and inspect outputs before use.
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
-> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).
+> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
+> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).

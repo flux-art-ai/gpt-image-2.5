@@ -1,8 +1,8 @@
 # GPT Image 2.5 中文文字与海报排版：使用入口和提示词｜Flux Art
 
-使用 GPT Image 2.5 制作带文字的图片，可以从 [Flux Art 在线入口](https://flux-art.cc/zh/models/gpt-image-2-5)开始，先确定画面结构，再提供准确文案和位置。短标题适合直接尝试；密集参数、价格说明和长段正文更适合在排版工具中完成，不能省略逐字校对。
+使用 GPT Image 2.5 制作带文字的图片，可以从 [Flux Art 在线入口](https://flux-art.cn/zh/models/gpt-image-2-5)开始，先确定画面结构，再提供准确文案和位置。短标题适合直接尝试；密集参数、价格说明和长段正文更适合在排版工具中完成，不能省略逐字校对。
 
-[全部使用教程](../README.md) · [English workspace](https://flux-art.cc/en/models/gpt-image-2-5)
+[全部使用教程](../README.md) · [English workspace](https://flux-art.cn/en/models/gpt-image-2-5)
 
 ## 将图片需求拆成四层
 
@@ -51,9 +51,9 @@
 | 数字或单位错误 | 回到包装文字表确认完整字段，把数值与单位一起修改 |
 | 反复修改仍有错字 | 生成无字或留白版本，在排版工具中放入最终文字 |
 | 改字时商品结构被改变 | 停止继续扩改，回到原始参考图并缩小编辑范围 |
-| 多个 SKU 的包装互相混淆 | 每次只使用一个完整 SKU 的图片和文字表；批量交付可进入 [SKU 批量图](https://flux-art.cc/zh/ai-ecommerce/sku-batch) |
+| 多个 SKU 的包装互相混淆 | 每次只使用一个完整 SKU 的图片和文字表；批量交付可进入 [SKU 批量图](https://flux-art.cn/zh/ai-ecommerce/sku-batch) |
 
-需要同时制作详情页模块时，可配合 [A+ 详情页](https://flux-art.cc/zh/ai-ecommerce/a-plus-content)或[详情页商品资料表](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/05-detail-page.md)。模型负责生成或编辑视觉，最终包装文字仍以真实商品资料和已批准文案为准。
+需要同时制作详情页模块时，可配合 [A+ 详情页](https://flux-art.cn/zh/ai-ecommerce/a-plus-content)或[详情页商品资料表](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/05-detail-page.md)。模型负责生成或编辑视觉，最终包装文字仍以真实商品资料和已批准文案为准。
 
 ## 活动结束后移除过期文案
 
@@ -69,7 +69,7 @@
 4. 在目标渠道查看前台实际展示；若旧促销图仍出现，检查发布状态和渠道缓存。
 5. 保存恢复文件、操作时间、渠道截图和复核结论，将过期活动版移出当前模板与交付目录。
 
-需要重建一套常规商品图时，可使用[商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite)组织交付；完整排期与恢复记录见[促销主图工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/02-promo-main-image.md)。GPT Image 2.5 负责图片生成或编辑，不会自动判断活动结束时间、更新电商渠道或清除缓存。
+需要重建一套常规商品图时，可使用[商品套图](https://flux-art.cn/zh/ai-ecommerce/product-suite)组织交付；完整排期与恢复记录见[促销主图工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/02-promo-main-image.md)。GPT Image 2.5 负责图片生成或编辑，不会自动判断活动结束时间、更新电商渠道或清除缓存。
 
 ## 从无字母版制作多语言商品图
 
@@ -119,15 +119,15 @@
 
 ## EN Summary
 
-Create short text-bearing visuals through [GPT Image 2.5 on Flux Art](https://flux-art.cc/en/models/gpt-image-2-5) using exact copy and explicit placement. Proofread every output. Use a separate layout tool for dense text, required statements and precise typography.
+Create short text-bearing visuals through [GPT Image 2.5 on Flux Art](https://flux-art.cn/en/models/gpt-image-2-5) using exact copy and explicit placement. Proofread every output. Use a separate layout tool for dense text, required statements and precise typography.
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
-> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).
+> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
+> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).

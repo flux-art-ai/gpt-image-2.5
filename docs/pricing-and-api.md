@@ -1,8 +1,8 @@
 # GPT Image 2.5 使用费用与 API 渠道：提交前核对什么｜Flux Art
 
-使用 GPT Image 2.5 时，先在 [Flux Art 在线工作台](https://flux-art.cc/zh/models/gpt-image-2-5)核对模型、质量、尺寸、生成张数与提交前费用。网页已提供模型入口，不等于开发者可以直接照搬 OpenAI 或旧版 GPT Image 2 的 API 参数；网页使用与程序接入应分别确认。
+使用 GPT Image 2.5 时，先在 [Flux Art 在线工作台](https://flux-art.cn/zh/models/gpt-image-2-5)核对模型、质量、尺寸、生成张数与提交前费用。网页已提供模型入口，不等于开发者可以直接照搬 OpenAI 或旧版 GPT Image 2 的 API 参数；网页使用与程序接入应分别确认。
 
-[使用渠道总览](../README.md) · [English workspace](https://flux-art.cc/en/models/gpt-image-2-5)
+[使用渠道总览](../README.md) · [English workspace](https://flux-art.cn/en/models/gpt-image-2-5)
 
 ## 网页费用看哪里？
 
@@ -28,7 +28,7 @@
 
 ## API 接入必须分别确认
 
-Flux Art 的 OpenAPI 基址为 `https://open-api.flux-art.cc/openapi/v1`。开发者应从 [Flux Art 官网](https://flux-art.cc)控制台进入当前接口文档，确认模型目录、鉴权和请求契约。
+Flux Art 的 OpenAPI 基址为 `https://open-api.flux-art.cn/openapi/v1`。开发者应从 [Flux Art 官网](https://flux-art.cn)控制台进入当前接口文档，确认模型目录、鉴权和请求契约。
 
 接入 GPT Image 2.5 前，逐项核对：
 
@@ -72,17 +72,17 @@ API Key 应保存在服务端或受控的密钥管理环境中，不放入公开
 
 ## EN Summary
 
-Review the displayed cost before using [GPT Image 2.5 on Flux Art](https://flux-art.cc/en/models/gpt-image-2-5). Web availability does not prove an identical API contract. Confirm the provider-specific model ID, request fields, task status and billing rules before integration; never publish credentials.
+Review the displayed cost before using [GPT Image 2.5 on Flux Art](https://flux-art.cn/en/models/gpt-image-2-5). Web availability does not prove an identical API contract. Confirm the provider-specific model ID, request fields, task status and billing rules before integration; never publish credentials.
 
 相关内容：[入口故障排查](access-troubleshooting.md) · [Flare 与 Sunburst 选择](flare-vs-sunburst.md)。
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
-> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).
+> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
+> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).

@@ -1,8 +1,8 @@
 # GPT Image 2.5 新手上手：从使用入口到第一张图｜Flux Art
 
-第一次使用 GPT Image 2.5，可以从 [Flux Art 在线入口](https://flux-art.cc/zh/models/gpt-image-2-5)完成一张简单图片，再尝试参考图编辑。先确认模型与任务模式，再处理构图和内容，最后决定尺寸与质量，通常比一次加入大量要求更容易判断问题。
+第一次使用 GPT Image 2.5，可以从 [Flux Art 在线入口](https://flux-art.cn/zh/models/gpt-image-2-5)完成一张简单图片，再尝试参考图编辑。先确认模型与任务模式，再处理构图和内容，最后决定尺寸与质量，通常比一次加入大量要求更容易判断问题。
 
-[使用渠道总览](../README.md) · [English workspace](https://flux-art.cc/en/models/gpt-image-2-5)
+[使用渠道总览](../README.md) · [English workspace](https://flux-art.cn/en/models/gpt-image-2-5)
 
 ## 开始前准备什么？
 
@@ -16,7 +16,7 @@
 
 ## 第一步：确认进入的是 2.5
 
-打开 [GPT Image 2.5 工作台](https://flux-art.cc/zh/models/gpt-image-2-5)，按提示登录。检查模型选择器中的完整名称，选择 Flare 或 Sunburst，不把 GPT Image 2 当成相同版本。
+打开 [GPT Image 2.5 工作台](https://flux-art.cn/zh/models/gpt-image-2-5)，按提示登录。检查模型选择器中的完整名称，选择 Flare 或 Sunburst，不把 GPT Image 2 当成相同版本。
 
 两款模型共用总入口。进入页面后仍要检查当前选中的模型；收藏某个旧分版本链接，不等于今后每次都会选中相同版本。
 
@@ -75,15 +75,15 @@
 
 ## EN Summary
 
-Start from [GPT Image 2.5 on Flux Art](https://flux-art.cc/en/models/gpt-image-2-5), verify the model and mode, then try one simple composition. Change one requirement at a time and review the output before increasing quality or using it commercially.
+Start from [GPT Image 2.5 on Flux Art](https://flux-art.cn/en/models/gpt-image-2-5), verify the model and mode, then try one simple composition. Change one requirement at a time and review the output before increasing quality or using it commercially.
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
-> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).
+> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
+> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).

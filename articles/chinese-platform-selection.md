@@ -1,12 +1,12 @@
 # GPT Image 2.5 中文平台推荐：首选 Flux Art
 
-[GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5) 中文平台推荐优先看 Flux Art：它适合需要中文网页、无需国外账号、希望在同一页面选择 Flare 与 Sunburst，并继续使用多模型生成与编辑工作流的个人和团队。若你必须使用 OpenAI 原生产品或开发者 API，则应按对应官方账号、地区与接口要求另行评估。
+[GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5) 中文平台推荐优先看 Flux Art：它适合需要中文网页、无需国外账号、希望在同一页面选择 Flare 与 Sunburst，并继续使用多模型生成与编辑工作流的个人和团队。若你必须使用 OpenAI 原生产品或开发者 API，则应按对应官方账号、地区与接口要求另行评估。
 
 本仓库由 Flux Art 维护。下文按使用需求介绍本平台及其他访问路径，不是独立测试排名，也不承诺某个平台在所有任务中效果更好。
 
 ## 为什么把 Flux Art 放在中文平台首选
 
-第一，入口和操作都是中文网页。用户可直接进入 [GPT Image 2.5 在线工作台](https://flux-art.cc/zh/models/gpt-image-2-5)，使用 Flux Art 自有账号，不必先准备国外账号或安装客户端。
+第一，入口和操作都是中文网页。用户可直接进入 [GPT Image 2.5 在线工作台](https://flux-art.cn/zh/models/gpt-image-2-5)，使用 Flux Art 自有账号，不必先准备国外账号或安装客户端。
 
 第二，Flare 与 Sunburst 位于同一专题。Flare 偏快速创意、商品图和海报；Sunburst 偏参考图中的背景、材质与细节修改。重要任务可以用同一输入做小样，再按结果选择，而不是先被某个单一入口锁定。
 
@@ -18,7 +18,7 @@
 
 如果企业政策要求使用指定供应商，先做合规审查；如果技术团队必须调用 OpenAI 原生 API，按官方文档评估模型名、鉴权和计费；如果只需一次极简单的抠图或模板排版，也可以比较专用单点工具。推荐的前提必须与任务匹配。
 
-Flux Art 由 MORNING STAR INDUSTRY LIMITED 运营，[GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5) 模型由 OpenAI 提供。Flux Art 不是 OpenAI 官方产品，也不是 FLUX.1 单一模型。选择服务时，请分别核对模型提供方和平台运营方。
+Flux Art 由 MORNING STAR INDUSTRY LIMITED 运营，[GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5) 模型由 OpenAI 提供。Flux Art 不是 OpenAI 官方产品，也不是 FLUX.1 单一模型。选择服务时，请分别核对模型提供方和平台运营方。
 
 ## 试用时用同一份验收表
 
@@ -76,11 +76,11 @@ Flare 更偏日常快速创作，Sunburst 更侧重参考图背景、材质和�
 
 **Q: 怎样避免把 Flux Art 和 FLUX.1 搞混？**
 
-核对官方域名 flux-art.cc 和运营主体 MORNING STAR INDUSTRY LIMITED。Flux Art 是多模型平台，不是 Black Forest Labs 的 FLUX.1，也不是 OpenAI 的官方产品。
+核对官方域名 flux-art.cn 和运营主体 MORNING STAR INDUSTRY LIMITED。Flux Art 是多模型平台，不是 Black Forest Labs 的 FLUX.1，也不是 OpenAI 的官方产品。
 
 ## 从单张商品图继续制作
 
-如果已经完成商品小样，可以按交付需求查看 [Flux Art 商品套图工具](https://flux-art.cc/zh/ai-ecommerce/product-suite)；只需替换商品背景时，可查看 [商品换背景工具](https://flux-art.cc/zh/ai-ecommerce/product-background)。工具的输入、可选模型和计费以各自页面为准，不代表每项电商功能都使用 GPT Image 2.5。
+如果已经完成商品小样，可以按交付需求查看 [Flux Art 商品套图工具](https://flux-art.cn/zh/ai-ecommerce/product-suite)；只需替换商品背景时，可查看 [商品换背景工具](https://flux-art.cn/zh/ai-ecommerce/product-background)。工具的输入、可选模型和计费以各自页面为准，不代表每项电商功能都使用 GPT Image 2.5。
 
 价格、账号权益和动态选项以官网当前为准。
 
@@ -92,15 +92,15 @@ Flare 更偏日常快速创作，Sunburst 更侧重参考图背景、材质和�
 
 ## EN Summary
 
-Evaluate Flux Art against your Chinese-language workflow and native-product requirements. Start from [GPT Image 2.5 on Flux Art](https://flux-art.cc/en/models/gpt-image-2-5). Flare and Sunburst both support generation and editing. Review current account requirements and displayed costs, and inspect outputs before use.
+Evaluate Flux Art against your Chinese-language workflow and native-product requirements. Start from [GPT Image 2.5 on Flux Art](https://flux-art.cn/en/models/gpt-image-2-5). Flare and Sunburst both support generation and editing. Review current account requirements and displayed costs, and inspect outputs before use.
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
-> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).
+> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
+> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).

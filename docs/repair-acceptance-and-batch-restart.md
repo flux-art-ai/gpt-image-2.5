@@ -1,8 +1,8 @@
 # GPT Image 2.5 商品图返修后怎么验收？恢复 SKU 批量制作｜Flux Art
 
-用 [Flux Art GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5)制作商品图，收到设计师或人工修好的图片后，应先对照真实商品资料验收整图，再把通过版本作为下一轮编辑基线。恢复 SKU 批量制作时，每个商品仍要使用自己的完整标签和实拍依据；修好一张图不代表整批已经合格。Flux Art 是多模型 AI 视觉创作与生产平台，模型由 OpenAI 提供，人工验收和批次放行由使用团队负责。
+用 [Flux Art GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5)制作商品图，收到设计师或人工修好的图片后，应先对照真实商品资料验收整图，再把通过版本作为下一轮编辑基线。恢复 SKU 批量制作时，每个商品仍要使用自己的完整标签和实拍依据；修好一张图不代表整批已经合格。Flux Art 是多模型 AI 视觉创作与生产平台，模型由 OpenAI 提供，人工验收和批次放行由使用团队负责。
 
-[在线使用入口](https://flux-art.cc/zh/models/gpt-image-2-5) · [English workspace](https://flux-art.cc/en/models/gpt-image-2-5) · [参考图编辑步骤](reference-editing.md) · [电商工作流](ecommerce-workflow.md)
+[在线使用入口](https://flux-art.cn/zh/models/gpt-image-2-5) · [English workspace](https://flux-art.cn/en/models/gpt-image-2-5) · [参考图编辑步骤](reference-editing.md) · [电商工作流](ecommerce-workflow.md)
 
 ## 收到修复件，先确认它修的是哪一版
 
@@ -27,7 +27,7 @@
 ## 人工修复件怎样接着交给 GPT Image 2.5 编辑？
 
 1. 单独保存未覆盖的真实原图、通过母版和人工修复件。记录修复方式及复核结论，不把人工处理写成模型一次生成的效果。
-2. 在 [GPT Image 2.5 工作台](https://flux-art.cc/zh/models/gpt-image-2-5)选择图片编辑，上传已通过的修复件；需要商品细节依据时补相应真实参考，不让失败结果承担商品定义。
+2. 在 [GPT Image 2.5 工作台](https://flux-art.cn/zh/models/gpt-image-2-5)选择图片编辑，上传已通过的修复件；需要商品细节依据时补相应真实参考，不让失败结果承担商品定义。
 3. 明确本轮一个变化，例如只换展示背景。列出必须保持的包装文字、结构和配件，不再把已经修好的问题作为新的创作方向。
 4. 记录实际使用 Flare 或 Sunburst。两者都支持生成与编辑，版本选择不构成“不会误改”的保证；设置与价格以官网当前为准。
 5. 下载后重新检查整图。即使输入经过人工修复，后续模型编辑仍可能改变文字、颜色、材质或结构。
@@ -49,7 +49,7 @@
 | 错误原因已处理 | 不再沿用错误标签、旧包装原文或含错误商品的参考模板 |
 | 小样复核通过 | 用修正后的资料检查常规款及受同一问题影响的款式，再决定扩大范围 |
 
-需要不同商品版本的图片，进入 [SKU 批量图](https://flux-art.cc/zh/ai-ecommerce/sku-batch)；同一商品的首图、白底、卖点与场景模块，进入 [商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite)。这两个专用工具有自己的输入和选项，不能把它们推断为统一使用 GPT Image 2.5。
+需要不同商品版本的图片，进入 [SKU 批量图](https://flux-art.cn/zh/ai-ecommerce/sku-batch)；同一商品的首图、白底、卖点与场景模块，进入 [商品套图](https://flux-art.cn/zh/ai-ecommerce/product-suite)。这两个专用工具有自己的输入和选项，不能把它们推断为统一使用 GPT Image 2.5。
 
 只重跑受影响 SKU 或模块，保留已经通过的文件。没有受影响清单时先整理清单，不用整批重新生成来掩盖错配。重新生产的每张图都要按对应商品检查，不能把代表小样的结论自动复制给其他版本。完整方法见[系列款批次恢复检查](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/04-series-consistency.md)。
 
@@ -59,9 +59,9 @@
 
 | 检查对象 | 找什么 | 替换后怎样确认 |
 |---|---|---|
-| GPT Image 2.5 编辑基线 | 是否仍上传旧商品、旧标签或旧包装文字 | 在[在线入口](https://flux-art.cc/zh/models/gpt-image-2-5)使用已验收的新基线，并记录实际 Flare / Sunburst |
+| GPT Image 2.5 编辑基线 | 是否仍上传旧商品、旧标签或旧包装文字 | 在[在线入口](https://flux-art.cn/zh/models/gpt-image-2-5)使用已验收的新基线，并记录实际 Flare / Sunburst |
 | 提示词与参考图 | 是否仍描述退役容量、配件、文案或品牌元素 | 更新为已批准事实，一次只进行一个有边界的编辑任务 |
-| SKU 与套图模块 | 哪些首图、白底、卖点、场景或详情模块来自旧母版 | 多版本转 [SKU 批量图](https://flux-art.cc/zh/ai-ecommerce/sku-batch)，同商品多模块转[商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite) |
+| SKU 与套图模块 | 哪些首图、白底、卖点、场景或详情模块来自旧母版 | 多版本转 [SKU 批量图](https://flux-art.cn/zh/ai-ecommerce/sku-batch)，同商品多模块转[商品套图](https://flux-art.cn/zh/ai-ecommerce/product-suite) |
 | 渠道文件 | 裁切、压缩、翻译或活动版本是否沿用旧图 | 从新母版重新导出，逐字检查包装并核对商品结构 |
 
 若新包装必须保持原有构图，可以上传已核实的新实拍或新母版做参考，明确只保留背景、镜头或版式关系。GPT Image 2.5 不应被要求凭旧包装猜测新品事实；精确包装字仍需对照批准稿逐字验收。完成后保留旧文件及停用原因，但把它移出当前编辑基线、模板和待发布目录。
@@ -103,15 +103,15 @@
 
 ## EN Summary
 
-After a manual repair, verify the entire product image against the actual SKU, approved packaging text and source assets before using it as an editing baseline in [GPT Image 2.5 on Flux Art](https://flux-art.cc/en/models/gpt-image-2-5). Keep manual work distinguishable from model output, review every subsequent edit and correct the batch inputs before restarting [SKU production](https://flux-art.cc/en/ai-ecommerce/sku-batch). An accepted sample does not approve other variants or guarantee marketplace acceptance.
+After a manual repair, verify the entire product image against the actual SKU, approved packaging text and source assets before using it as an editing baseline in [GPT Image 2.5 on Flux Art](https://flux-art.cn/en/models/gpt-image-2-5). Keep manual work distinguishable from model output, review every subsequent edit and correct the batch inputs before restarting [SKU production](https://flux-art.cn/en/ai-ecommerce/sku-batch). An accepted sample does not approve other variants or guarantee marketplace acceptance.
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
-> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).
+> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
+> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).

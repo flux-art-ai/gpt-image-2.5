@@ -1,8 +1,8 @@
 # GPT Image 2.5 使用入口打不开怎么办？账户与任务排查｜Flux Art
 
-使用 GPT Image 2.5 遇到问题时，先通过 [Flux Art 正式入口](https://flux-art.cc/zh/models/gpt-image-2-5)区分页面加载、模型选择、账户条件和任务状态。页面能打开不等于任务已经成功；没有立即看到结果也不代表应当连续重复提交。
+使用 GPT Image 2.5 遇到问题时，先通过 [Flux Art 正式入口](https://flux-art.cn/zh/models/gpt-image-2-5)区分页面加载、模型选择、账户条件和任务状态。页面能打开不等于任务已经成功；没有立即看到结果也不代表应当连续重复提交。
 
-[渠道与教程首页](../README.md) · [English entry](https://flux-art.cc/en/models/gpt-image-2-5)
+[渠道与教程首页](../README.md) · [English entry](https://flux-art.cn/en/models/gpt-image-2-5)
 
 ## 按症状确定下一步
 
@@ -21,7 +21,7 @@
 
 当前 Flare 与 Sunburst 的分版本地址导向 GPT Image 2.5 总入口，两个版本由页面内的模型选择器区分。这不是仅凭地址就能确定已选模型的情况。
 
-建议收藏 [GPT Image 2.5 在线生成与编辑](https://flux-art.cc/zh/models/gpt-image-2-5)，每次开始任务前检查版本与模式。首次使用步骤见[新手教程](getting-started.md)。
+建议收藏 [GPT Image 2.5 在线生成与编辑](https://flux-art.cn/zh/models/gpt-image-2-5)，每次开始任务前检查版本与模式。首次使用步骤见[新手教程](getting-started.md)。
 
 ## 模型能看到，为什么还不能提交？
 
@@ -61,15 +61,15 @@
 
 ## EN Summary
 
-Troubleshoot [GPT Image 2.5 access on Flux Art](https://flux-art.cc/en/models/gpt-image-2-5) by separating page loading, model selection, account conditions and task status. Inspect the existing task before retrying and keep credentials out of public reports.
+Troubleshoot [GPT Image 2.5 access on Flux Art](https://flux-art.cn/en/models/gpt-image-2-5) by separating page loading, model selection, account conditions and task status. Inspect the existing task before retrying and keep credentials out of public reports.
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
-> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).
+> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
+> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).

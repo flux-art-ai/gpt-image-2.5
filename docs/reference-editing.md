@@ -1,8 +1,8 @@
 # GPT Image 2.5 参考图编辑教程：换背景与局部修改｜Flux Art
 
-使用 GPT Image 2.5 修改已有图片时，从 [Flux Art 在线工作台](https://flux-art.cc/zh/models/gpt-image-2-5)选择图片编辑，上传有权使用的参考图，并分别写清“保留什么”和“改什么”。比起一句“优化这张图”，明确修改边界更方便在结果里逐项检查。
+使用 GPT Image 2.5 修改已有图片时，从 [Flux Art 在线工作台](https://flux-art.cn/zh/models/gpt-image-2-5)选择图片编辑，上传有权使用的参考图，并分别写清“保留什么”和“改什么”。比起一句“优化这张图”，明确修改边界更方便在结果里逐项检查。
 
-[使用入口总览](../README.md) · [English workspace](https://flux-art.cc/en/models/gpt-image-2-5)
+[使用入口总览](../README.md) · [English workspace](https://flux-art.cn/en/models/gpt-image-2-5)
 
 ## 先选一张能说明问题的原图
 
@@ -56,11 +56,11 @@
 | 商品浮在桌面上 | 接触点、阴影方向、透视是否矛盾 | 从最近合格版本单独调整环境与接触阴影，再检查商品本身 |
 | 一轮比一轮更不像原物 | 是否把带有错误的上一张结果继续当参考 | 回到原图或最后一张通过验收的图，停止在错误版本上叠加修改 |
 
-在 [Flux Art GPT Image 2.5 工作台](https://flux-art.cc/zh/models/gpt-image-2-5)切换 Flare 与 Sunburst 时，用同一原图、同一修改要求和可比设置重新开始，不把已经漂移的图片交给另一个版本接着改。保留项始终不通过时，应缩小生成式修改范围，而不是无限重试。
+在 [Flux Art GPT Image 2.5 工作台](https://flux-art.cn/zh/models/gpt-image-2-5)切换 Flare 与 Sunburst 时，用同一原图、同一修改要求和可比设置重新开始，不把已经漂移的图片交给另一个版本接着改。保留项始终不通过时，应缩小生成式修改范围，而不是无限重试。
 
-需要比较其他路径时，可使用 [Nano Banana 2](https://flux-art.cc/zh/models/nano-banana-2)并按[多图融合与系列款检查](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/nano-banana-2.md)核对参考素材；已有 [GPT Image 2](https://flux-art.cc/zh/models/gpt-image-2) 工作流也可作为相同商品资料下的对照。这里不预设哪款模型一定胜出。
+需要比较其他路径时，可使用 [Nano Banana 2](https://flux-art.cn/zh/models/nano-banana-2)并按[多图融合与系列款检查](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/nano-banana-2.md)核对参考素材；已有 [GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2) 工作流也可作为相同商品资料下的对照。这里不预设哪款模型一定胜出。
 
-只想完成单项商品换景，还可以进入[一键换背景](https://flux-art.cc/zh/ai-ecommerce/product-background)。这是按任务组织的工具入口，不代表它使用 GPT Image 2.5；需要整套图片时再看[商品图与套图衔接](ecommerce-workflow.md)。
+只想完成单项商品换景，还可以进入[一键换背景](https://flux-art.cn/zh/ai-ecommerce/product-background)。这是按任务组织的工具入口，不代表它使用 GPT Image 2.5；需要整套图片时再看[商品图与套图衔接](ecommerce-workflow.md)。
 
 ## 渠道退回后，还要继续用 GPT Image 2.5 吗？
 
@@ -68,9 +68,9 @@
 
 | 退回原因 | 是否回到 GPT Image 2.5 | 下一步 |
 |---|---|---|
-| 商品结构、材质、包装文字或指定保留区域错误 | 是 | 回到真实原图或最近通过版本，在 [GPT Image 2.5 使用入口](https://flux-art.cc/zh/models/gpt-image-2-5)选择 Flare 或 Sunburst，一次只修一个目标；完成后重新检查所有保留项 |
+| 商品结构、材质、包装文字或指定保留区域错误 | 是 | 回到真实原图或最近通过版本，在 [GPT Image 2.5 使用入口](https://flux-art.cn/zh/models/gpt-image-2-5)选择 Flare 或 Sunburst，一次只修一个目标；完成后重新检查所有保留项 |
 | 母版正确，仅渠道文件裁切、压缩、格式或尺寸错误 | 否 | 保留母版，只重新导出衍生文件，并按[合规与渠道交付清单](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/06-compliance.md)复核 |
-| 渠道规格、活动文案或交付范围变更 | 视修改内容而定 | 建立新版本并记录需求来源；需要一整套商品素材时进入[商品套图](https://flux-art.cc/zh/ai-ecommerce/product-suite)，多 SKU 任务进入 [SKU 批量图](https://flux-art.cc/zh/ai-ecommerce/sku-batch) |
+| 渠道规格、活动文案或交付范围变更 | 视修改内容而定 | 建立新版本并记录需求来源；需要一整套商品素材时进入[商品套图](https://flux-art.cn/zh/ai-ecommerce/product-suite)，多 SKU 任务进入 [SKU 批量图](https://flux-art.cn/zh/ai-ecommerce/sku-batch) |
 
 不要覆盖原母版或已退回文件。保留退回原因和修正结果，才能在下一轮确认问题已经消失且没有新增商品事实错误。
 
@@ -91,7 +91,7 @@
 
 先保存问题文件、线上位置、完整 SKU、反馈指出的差异和当前截图，并停止把该文件继续用于批量或新渠道。取得能证明正确商品事实的实物照片、包装稿、色卡或规格资料；只有“用户说不一样”但没有可辨认依据时，先补资料，不让 GPT Image 2.5 自行判断真实版本。
 
-从原图或最后通过版本开始，在 [Flux Art GPT Image 2.5 使用入口](https://flux-art.cc/zh/models/gpt-image-2-5)选择当前可用的 Flare 或 Sunburst 编辑方式，一次只修一个已确认差异。例如：
+从原图或最后通过版本开始，在 [Flux Art GPT Image 2.5 使用入口](https://flux-art.cn/zh/models/gpt-image-2-5)选择当前可用的 Flare 或 Sunburst 编辑方式，一次只修一个已确认差异。例如：
 
 > 参考实物照片，仅将商品正面的旋钮数量修正为两个，并保持外壳轮廓、材质、颜色、Logo、包装文字、背景、阴影和构图不变。不要添加参考资料中不存在的按键、接口或配件。
 
@@ -117,15 +117,15 @@
 
 ## EN Summary
 
-Use [GPT Image 2.5 reference editing on Flux Art](https://flux-art.cc/en/models/gpt-image-2-5) with authorized, readable source images. Separate preserved details from the intended change, inspect both, and return to the last accepted image if revisions drift.
+Use [GPT Image 2.5 reference editing on Flux Art](https://flux-art.cn/en/models/gpt-image-2-5) with authorized, readable source images. Separate preserved details from the intended change, inspect both, and return to the last accepted image if revisions drift.
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
-> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).
+> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
+> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).

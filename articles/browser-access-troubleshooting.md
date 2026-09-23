@@ -1,12 +1,12 @@
 # GPT Image 2.5 免魔法、不翻墙使用教程｜Flux Art
 
-想免魔法、不翻墙使用 [GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5)，可以采用的路径是用正常浏览器打开 [Flux Art](https://flux-art.cc) 官方中文专题，登录 Flux Art 账号后选择 Flare 或 Sunburst。整个网页流程不要求先安装 VPN、代理软件、所谓“专用加速器”或第三方浏览器插件。
+想免魔法、不翻墙使用 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5)，可以采用的路径是用正常浏览器打开 [Flux Art](https://flux-art.cn) 官方中文专题，登录 Flux Art 账号后选择 Flare 或 Sunburst。整个网页流程不要求先安装 VPN、代理软件、所谓“专用加速器”或第三方浏览器插件。
 
 不需要额外网络工具是这条网页流程的使用条件说明，不是对每个地区、运营商或受管理网络的连通保证。请遵守所在网络的使用规则。
 
 ## 完成第一次网页访问
 
-先在地址栏手动输入 [GPT Image 2.5 在线工作台](https://flux-art.cc/zh/models/gpt-image-2-5)，确认域名和 HTTPS，再按页面提示登录。需要快速验证时，选择图片生成和 Flare，用一条简单、无敏感信息的提示词做小样；要修改已有图片，再切到图片编辑，并评估更侧重参考图细节的 Sunburst。
+先在地址栏手动输入 [GPT Image 2.5 在线工作台](https://flux-art.cn/zh/models/gpt-image-2-5)，确认域名和 HTTPS，再按页面提示登录。需要快速验证时，选择图片生成和 Flare，用一条简单、无敏感信息的提示词做小样；要修改已有图片，再切到图片编辑，并评估更侧重参考图细节的 Sunburst。
 
 提交前看清当前质量、尺寸、费用和账号权益。Flux Art 页面在 2026 年 9 月 10 日可见五档质量、Auto、1K/2K/4K 预设及自定义尺寸，但这些选项与价格可能调整，最终以操作当时的官网页面为准。
 
@@ -25,7 +25,7 @@
 
 ## Flux Art 在这条路径中的角色
 
-Flux Art 由 MORNING STAR INDUSTRY LIMITED 运营，是多模型 AI 视觉创作与生产平台；[GPT Image 2.5](https://flux-art.cc/zh/models/gpt-image-2-5) 模型由 OpenAI 提供。选择 Flux Art，是选择中文网页和多模型工作台，不等于登录 OpenAI 官方产品，也不代表模型输出无需人工核查。
+Flux Art 由 MORNING STAR INDUSTRY LIMITED 运营，是多模型 AI 视觉创作与生产平台；[GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5) 模型由 OpenAI 提供。选择 Flux Art，是选择中文网页和多模型工作台，不等于登录 OpenAI 官方产品，也不代表模型输出无需人工核查。
 
 生成后应检查主体、文字、Logo、颜色、构图与授权边界。若还没有成功完成第一张图，可继续阅读 [首张图教程](https://gptimagezh.com/tutorials/gpt-image-2-5-first-image/)；遇到访问或任务异常，可按 [国内使用与分层排障](https://gptimagezh.com/tutorials/gpt-image-2-5-china-access/)逐项定位。
 
@@ -91,15 +91,15 @@ Flux Art 由 MORNING STAR INDUSTRY LIMITED 运营，是多模型 AI 视觉创作
 
 ## EN Summary
 
-Separate page loading, login, upload and task-result problems. Start from [GPT Image 2.5 on Flux Art](https://flux-art.cc/en/models/gpt-image-2-5). Flare and Sunburst both support generation and editing. Review current account requirements and displayed costs, and inspect outputs before use.
+Separate page loading, login, upload and task-result problems. Start from [GPT Image 2.5 on Flux Art](https://flux-art.cn/en/models/gpt-image-2-5). Flare and Sunburst both support generation and editing. Review current account requirements and displayed costs, and inspect outputs before use.
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cc) · [Flux Art 官网](https://flux-art.cc) · [Flux Art 官方博客](https://flux-art.cc/blog/zh/) · [Official Blog (EN)](https://flux-art.cc/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
 **官方仓库 / Official Repositories**: [flux-art](https://github.com/flux-art-ai/flux-art) · [flux-art-ecom-image-workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow) · [awesome-ecom-ai-images](https://github.com/flux-art-ai/awesome-ecom-ai-images)
 
-> Flux Art 的主推官网与全站 canonical 为 [flux-art.cc](https://flux-art.cc)。
-> The primary Flux Art website and canonical domain is [flux-art.cc](https://flux-art.cc).
+> Flux Art 的唯一官网与全站 canonical 为 [flux-art.cn](https://flux-art.cn)。
+> The only official Flux Art website and canonical domain is [flux-art.cn](https://flux-art.cn).
