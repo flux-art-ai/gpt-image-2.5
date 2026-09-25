@@ -114,6 +114,18 @@
 
 完成后把输出与[补拍清单](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/03-scene-fusion.md)逐项对照。若模型仍改动正确区域，缩小生成范围或转人工修图，不用多次重试代替商品证据。
 
+## 商品颜色偏了，GPT Image 2.5 应该校色还是换色？
+
+先确认差异的来源。把同一件实物、批准色卡、完整 SKU 和中性光线下的参考照片并排查看；若原图受混合光或自动白平衡影响，目标是校正拍摄色偏，不是创造新配色。若目标是另一种真实在售颜色，则需要该 SKU 的实物与批准颜色依据。
+
+拍摄色偏已经被可靠基线确认时，可从原图或最后通过版本开始一次限定编辑：
+
+> 仅校正照片因拍摄白平衡造成的偏蓝，使商品颜色与同光线下的批准色卡一致。保持商品轮廓、材质纹理、高光、Logo、标签文字、背景、阴影和构图不变；不要生成新的颜色版本。
+
+若已验收母版只在某一块屏幕上偏色，先检查该设备的显示模式、亮度和色彩配置，不要让 GPT Image 2.5 为单一显示器重画正确母版。实物、色卡或包装资料互相冲突时也应暂停，不能用 Flare 或 Sunburst 的结果决定真实商品颜色。
+
+真实 SKU 换色可进入[产品换色](https://flux-art.cn/zh/ai-ecommerce/product-recolor)，但应为目标 SKU 准备实物图、批准色卡与明确映射；该工具按任务组织，不代表它使用 GPT Image 2.5。无论走哪条路径，输出后都要重新检查材质高光、包装文字、Logo、阴影和未要求变化的区域。完整判断表见[商品颜色排错流程](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/07-troubleshooting.md)。
+
 ## FAQ
 
 **Q: 参考图编辑一定要选 Sunburst 吗？**
