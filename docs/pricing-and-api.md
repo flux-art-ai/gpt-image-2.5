@@ -26,25 +26,44 @@
 
 质量与尺寸是两个选择。先完成构图验证，再为最终用途选择输出，可以减少把不合格构图反复放大的无效尝试。
 
-## API 接入必须分别确认
+## GPT Image 2.5 的 OpenAPI 模型 ID
 
-Flux Art 的 OpenAPI 基址为 `https://open-api.flux-art.net/openapi/v1`。开发者应从 [Flux Art 官网](https://flux-art.cn)控制台进入当前接口文档，确认模型目录、鉴权和请求契约。
+Flux Art 的 OpenAPI 基址为 `https://open-api.flux-art.net/openapi/v1`。当前 [API Reference](https://flux-art.net/zh/openapi/reference)明确列出两个 GPT Image 2.5 模型 ID：
+
+| 网页版本 | OpenAPI `model` |
+|---|---|
+| Flare | `gpt-image-2.5-flare` |
+| Sunburst | `gpt-image-2.5-sunburst` |
+
+网页端仍从 [GPT Image 2.5 家族入口](https://flux-art.cn/zh/models/gpt-image-2-5)进入并选择版本。网页入口、Flux Art OpenAPI ID 与 OpenAI 原生模型名属于不同命名空间，不能相互替换。
+
+开发者应先用当前账户的 API Key 调用 `GET /models`，确认所需 ID 对该账户可见，再按 Reference 核对鉴权和请求契约。未带有效 Key 时返回 `401 invalid_api_key` 是鉴权失败，不是模型不可用或生成失败。
 
 接入 GPT Image 2.5 前，逐项核对：
 
-1. 当前 API 模型目录是否列出所需版本，以及精确模型 ID。
+1. 当前账户的 API 模型目录是否列出 `gpt-image-2.5-flare` 或 `gpt-image-2.5-sunburst`。
 2. 对应能力是文字生成、参考图编辑，还是分别使用不同接口。
 3. 图片输入格式、质量与尺寸字段是否被当前 API 接受。
 4. 返回的是结果还是任务标识，以及如何查询最终状态。
 5. 请求重试、失败计费与任务取消分别遵循什么规则。
 
-网页中的 Flare / Sunburst 名称、质量菜单和电商工具字段不能自动转换成 API 参数。上游服务商的模型 ID 也不等于 Flux Art 的已确认 ID。
+网页中的质量菜单和电商工具字段不能自动转换成 API 参数。即使模型 ID 已由 Reference 列出，尺寸、质量、参考图和其他字段仍须按当前目录与接口契约核对。
+
+## 从模型目录到完成结果的最短流程
+
+1. 在服务端安全注入 API Key，请求 `GET https://open-api.flux-art.net/openapi/v1/models`。
+2. 确认目标 ID、当前能力和可用字段；不要仅凭网页按钮推断参数。
+3. 为一次独立请求生成并保存 `Idempotency-Key`，连同请求体提交到图像生成端点。
+4. 接受新任务的 `201`，保存响应中的任务 ID；`queued` 或 `processing` 都不是完成状态。
+5. 通过 `GET /tasks/{task_id}` 查询原任务。只有 `succeeded` 后才读取输出，并按实际用途验收图片。
+
+网络错误或 5xx 重试时保留同一请求体与幂等键；不同请求不得复用同一个键。任务失败、取消、扣费与退款以实际响应中的状态和 `usage` 为准。
 
 ## 不要直接复用旧版 API 参数
 
 把 GPT Image 2 的模型名改成 2.5，不能证明调用成立；不同服务商还可能采用不同的鉴权、字段和异步任务方式。应先取得当前接口契约，再写对应代码。
 
-通用流程可阅读[Flux Art OpenAPI 使用说明](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/api/README.md)，但其中的旧版示例不能作为 GPT Image 2.5 接入成功的证明。需要立刻进行网页创作时，可以使用[首次操作教程](getting-started.md)。
+通用流程可阅读[Flux Art OpenAPI 使用说明](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/api/README.md)。其中的 GPT Image 2 示例可用于理解鉴权、幂等和任务查询，但不能把模型名直接替换后视为 GPT Image 2.5 已成功调用；仍要使用当前目录返回的 ID 与字段。需要立刻进行网页创作时，可以使用[首次操作教程](getting-started.md)。
 
 ## 保护接入凭据
 
@@ -56,7 +75,7 @@ API Key 应保存在服务端或受控的密钥管理环境中，不放入公开
 
 **Q: GPT Image 2.5 在线能用，API 就一定能用吗？**
 
-不能由网页入口直接推断。请以 Flux Art 当前 API 模型目录及文档为准，确认具体版本与功能。
+不能由网页入口直接推断。Reference 已列出 Flare 与 Sunburst 的 API ID，但账户可用性和具体字段仍以鉴权后的 `GET /models` 及当前文档为准。
 
 **Q: 可以沿用 GPT Image 2 的 API 示例吗？**
 
