@@ -15,6 +15,20 @@
 
 该表是任务起步建议，不是独立跑分结果。模型定位来自 [Flux Art 当前模型页](https://flux-art.cn/zh/models/gpt-image-2-5)及其列出的提供方资料。
 
+## 什么时候不该继续在 GPT Image 2.5 里重试？
+
+Flare 与 Sunburst 都是 GPT Image 2.5 的生成与编辑选择，但模型内切换不一定能解决任务分流错误。先保留最近一次可接受结果，再按实际问题选择其他入口；下面不是模型排名。
+
+| 实际问题 | 可比较的 Flux Art 入口 | 为什么要分流 |
+|---|---|---|
+| 只需快速修改一张已有图片 | [Nano Banana](https://flux-art.cn/zh/models/nano-banana)（[EN](https://flux-art.cn/en/models/nano-banana)） | 当前定位为 1K 快速编辑；用同一原图与单一修改要求比较，不要同时重写整张画面 |
+| 还在试构图、道具或氛围方向 | [Nano Banana 2 Lite](https://flux-art.cn/zh/models/nano-banana-2-lite)（[EN](https://flux-art.cn/en/models/nano-banana-2-lite)） | 当前 1K 草图适合先缩小方向；未经商品事实复核的草图不能直接上架 |
+| 已有通过母版，需要扩展系列版本 | [Nano Banana 2](https://flux-art.cn/zh/models/nano-banana-2)（[EN](https://flux-art.cn/en/models/nano-banana-2)） | 以一致性编辑为起点，逐图核对完整 SKU、标签、结构与未修改区域 |
+| 需要细节密集的 1K、2K 或 4K 生成与编辑候选 | [Nano Banana Pro](https://flux-art.cn/zh/models/nano-banana-pro)（[EN](https://flux-art.cn/en/models/nano-banana-pro)） | Pro 名称不代表自动通过；仍要核对文字、事实、Logo 和保护区域 |
+| 输入缺少真实标签、材质、结构或 SKU 资料 | 先补商品证据，不换模型 | 任何模型都不应替团队猜测看不见的真实商品信息 |
+
+对比 GPT Image 2.5 与 Nano Banana 家族时，固定原图、任务、画幅和验收表，只更换模型；若模型没有相同选项，就在记录中注明，不把不同任务的两张图当作优劣证据。Google 提供 Nano Banana 模型，OpenAI 提供 GPT Image 模型，Flux Art 提供多模型使用入口。
+
 ## 用一项真实任务比较两款
 
 例如你需要把一张椅子产品图放进客厅，但椅子结构不能变化：
@@ -86,7 +100,7 @@ Choose Flare for an initial everyday creative task and try Sunburst for precise 
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.net/blog/zh/) · [Official Blog (EN)](https://flux-art.net/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
