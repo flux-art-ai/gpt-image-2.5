@@ -91,6 +91,18 @@
 
 返修后重新检查整双鞋和人物接触关系；只要鞋型、鞋底、左右方向或多个部件同时变化，就回退到原始候选。参考图没有显示鞋底、后跟或另一侧结构时，先补拍，不让模型猜测。GPT Image 2.5 输出不能证明尺码、楦型、舒适性、防滑性或真实穿着体验。完整输入证据和停止线见[鞋履上脚工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/09-model-photo.md)。
 
+## 配饰试戴先固定佩戴锚点，再用 GPT Image 2.5 做单点返修
+
+帽子、眼镜、围巾/披肩、项链、耳饰、手表、手链、腰带和包袋先进入 [AI 万戴](https://flux-art.cn/zh/ai-ecommerce/accessory-try-on)。页面当前可上传配饰图，选择 AI 或已获授权的自定义模特，明确配饰类型、人物属性、输出比例，并补充场景、造型或佩戴方式。这些字段属于专用电商工具，不是 GPT Image 2.5 参数，也不表示该工具固定使用 GPT Image 2.5。
+
+生成前先把配饰结构和佩戴锚点写清楚：眼镜对应鼻梁与镜腿，耳饰对应耳垂，项链对应颈部和吊坠方向，腕表对应表盘与手腕，腰带对应腰线和扣头，包袋对应提手、肩带、手部、肩部或躯干路径。随后核对商品比例、五金、Logo、图案、链带走向和人物遮挡。
+
+只有整张试戴候选已经通过、且一个接触点有清晰实拍依据时，才从同一张原始候选进入 GPT Image 2.5 编辑，并在相同输入、相同选区和相同要求下比较 Flare 与 Sunburst。可直接使用：
+
+> 以这张已验收的斜挎包试戴候选为基线，仅修正左肩处肩带与西装领口的接触关系，使肩带自然贴在服装外侧。保持包体比例、翻盖、提手、肩带长度与宽度、金属扣件、缝线、Logo、颜色、人物、姿势、手部、镜头、背景和其他区域不变。若无法只修改该接触点，请保留原图。
+
+返修后重新检查整件配饰和完整人物。包体或镜框比例改变、链体或肩带断裂、五金增删、表冠换边、Logo 镜像，或者多个锚点同时变化时，立即回退。参考图无法证明背面、扣件、带长或侧面结构时先补拍，不让模型猜测。GPT Image 2.5 输出不能证明真实尺寸、承重、适配范围、材质性能、舒适性或佩戴体验。详细事实表见[配饰试戴工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/09-model-photo.md)。
+
 ## FAQ
 
 **Q: 可以直接用文字生成真实商品图吗？**
@@ -117,7 +129,7 @@ Use [GPT Image 2.5 on Flux Art](https://flux-art.cn/en/models/gpt-image-2-5) to 
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.net/blog/zh/) · [Official Blog (EN)](https://flux-art.net/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
