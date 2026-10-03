@@ -10,6 +10,18 @@
 
 如果任务需要多份素材，应先明确各自用途，并遵守当前界面支持的上传数量与格式。本指南不把其他模型的参考图上限套用到 GPT Image 2.5。
 
+## 什么时候应先用模特专用工具？
+
+GPT Image 2.5 适合对已通过主体做有界编辑，但“服装上身、只换姿势、只换面部”已有更明确的任务入口。先按输入分流，再决定是否需要局部返修：
+
+| 当前输入和目标 | 先用哪个入口 | GPT Image 2.5 的安全角色 |
+|---|---|---|
+| 服装商品图需要生成模特穿戴候选 | [模特穿戴](https://flux-art.cn/zh/ai-ecommerce/model-wearing) · [EN](https://flux-art.cn/en/ai-ecommerce/model-wearing) | 整体候选通过后，仅修一个有实物证据的褶皱、边缘或接触点 |
+| 已有模特图，只改变姿势 | [模特一键换姿势](https://flux-art.cn/zh/ai-ecommerce/model-pose-change) · [EN](https://flux-art.cn/en/ai-ecommerce/model-pose-change) | 姿势、人物、服装和场景均通过后，仅修一个局部异常 |
+| 已有模特图和已获授权的面部参考 | [AI 模特换脸](https://flux-art.cn/zh/ai-ecommerce/model-face-swap) · [EN](https://flux-art.cn/en/ai-ecommerce/model-face-swap) | 授权、面部边界、光线、发型、姿势和场景通过后，仅处理一个可指认区域 |
+
+不要用 GPT Image 2.5 在错误的模特图上连续叠加修补。若服装结构、人物身份、姿势或多个区域同时错误，应回到对应专用工具和原始输入；这些工具的名称也不代表其底层使用 GPT Image 2.5。多步验收见 [Flux Art 英文模特图工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/en/09-model-photo.md)。
+
 ## 场景一：只换背景
 
 适合已经认可商品形态，只想换拍摄环境的情况。
@@ -182,7 +194,7 @@ Use [GPT Image 2.5 reference editing on Flux Art](https://flux-art.cn/en/models/
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.net/blog/zh/) · [Official Blog (EN)](https://flux-art.net/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
