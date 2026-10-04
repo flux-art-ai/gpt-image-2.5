@@ -89,6 +89,18 @@
 
 需要建立术语表、不可翻译项和渠道文件映射时，使用[图片翻译与多语言套图工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/08-image-translation.md)。密集参数、长段说明或必须精确对齐的法定文字仍应放入排版工具；GPT Image 2.5 不替代翻译、法律或渠道审核。
 
+### 英文商品图本地化的三种交付路径
+
+英文并不等于把中文逐字换成英文。先由目标语言审核人批准市场文案，再按文字量和版式要求选择路径：
+
+| 交付要求 | GPT Image 2.5 的边界 | 交付记录 |
+|---|---|---|
+| 一个短标题或单个文字框 | 只编辑已定义区域；Flare 与 Sunburst 如需比较，使用同一母版与同一文案 | 母版、语言包版本、实际选择、整图复核结果 |
+| 规格表、长段正文、法定文字或精确字距 | 保留无字母版，转排版工具逐字放置，不用模型概括或补写 | 批准文案、排版文件、目标语言审核人、导出版本 |
+| 文案不变，仅渠道裁切或格式变化 | 不重新生成；从已验收的英文成品导出渠道衍生文件 | 渠道、图片用途、裁切/格式依据、前台截图 |
+
+完整英文步骤见 [Flux Art AI product image localization workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/en/08-image-localization.md)。任何路径都要重新核对商品、包装、Logo、数字、单位、不可翻译项和实际前台；一个英文版本正确不能证明其他市场版本正确。
+
 ## 发布前的文字检查
 
 1. 对照原始文案逐字读一遍，不只看缩略图。
@@ -123,7 +135,7 @@ Create short text-bearing visuals through [GPT Image 2.5 on Flux Art](https://fl
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.net/blog/zh/) · [Official Blog (EN)](https://flux-art.net/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
