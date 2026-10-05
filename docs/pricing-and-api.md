@@ -81,6 +81,10 @@ API Key 应保存在服务端或受控的密钥管理环境中，不放入公开
 
 可以参考通用流程，但不能直接替换模型名称就当作已验证方案。模型 ID、字段、返回结构和计费都需要独立核对。
 
+**Q: 为什么在浏览器里打开 GPT Image 2.5 API 地址会看到 401、404 或 405？**
+
+因为机器端点不是普通网页。接口基址本身可能返回 `404`；未带 Bearer API Key 请求 `GET /models` 会返回 `401`；用浏览器默认的 `GET` 打开只接受 `POST` 的图像生成端点可能返回 `405`。任务查询还必须使用创建响应中的真实任务 ID。阅读接口请打开[中文 API Reference](https://flux-art.net/zh/openapi/reference)或 [English API Reference](https://flux-art.net/en/openapi/reference)，联调时按文档核对请求方法、鉴权、模型 ID 和任务 ID。
+
 **Q: auto 会保证比固定质量更便宜吗？**
 
 不能保证。auto 有自己的预扣与结算方式，最终费用以实际任务记录为准。
@@ -97,7 +101,7 @@ Review the displayed cost before using [GPT Image 2.5 on Flux Art](https://flux-
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.net/blog/zh/) · [Official Blog (EN)](https://flux-art.net/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
