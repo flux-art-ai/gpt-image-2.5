@@ -24,6 +24,19 @@ GPT Image 2.5 的模型提供方是 OpenAI。选择 Flux Art 这个使用渠道�
 
 完整步骤与第一条提示词见[新手上手教程](docs/getting-started.md)。套餐、价格、积分及活动以官网当前为准，不承诺固定免费次数。
 
+## 旧版 GPT Image 2 项目要升级到 2.5 吗？
+
+不用强制升级。Flux Art 当前同时提供 [GPT Image 2](https://flux-art.cn/zh/models/gpt-image-2) 与 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5) 的独立入口；前者继续承接产品图与写实商业摄影工作流，后者在同一页面内提供 Flare / Sunburst 的生成与编辑选择。是否切换应由具体任务和可比小样决定。
+
+| 现有项目 | 建议做法 | 不应做什么 |
+|---|---|---|
+| GPT Image 2 已有稳定提示词和通过样张 | 保留原项目与模型记录；新需求先沿用已验证流程 | 不把旧文件、教程或 API ID 直接改名为 2.5 |
+| 想比较 2.5 的新构图 | 用同一商品、提示词、画幅与验收表另开 Flare 小样 | 不同时更换素材和提示词后宣称版本更优 |
+| 已有通过图片，只需改一个局部 | 从原始通过图进入 2.5 编辑，分别记录 Flare / Sunburst | 不让一个版本继续编辑另一个版本的失败图 |
+| API 项目准备接入 2.5 | 查看 [费用与 API 使用说明](docs/pricing-and-api.md)，按当前 Reference 和账户模型目录核对精确 ID | 不把网页显示名、OpenAI 参数或 `gpt-image-2` 自动替换为 2.5 |
+
+需要继续使用旧版时，可按 [GPT Image 2 电商产品图实操](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/gpt-image-2.md)准备商品事实和验收表。需要比较 2.5 时，从同一通过基线开始，再进入下方 Flare / Sunburst 选择。
+
 ## Flare 与 Sunburst 怎么选？
 
 | 当前任务 | 起步选择 | 判断结果是否合适 |
