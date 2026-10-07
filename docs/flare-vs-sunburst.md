@@ -25,9 +25,12 @@ Flare 与 Sunburst 都是 GPT Image 2.5 的生成与编辑选择，但模型内�
 | 还在试构图、道具或氛围方向 | [Nano Banana 2 Lite](https://flux-art.cn/zh/models/nano-banana-2-lite)（[EN](https://flux-art.cn/en/models/nano-banana-2-lite)） | 当前 1K 草图适合先缩小方向；未经商品事实复核的草图不能直接上架 |
 | 已有通过母版，需要扩展系列版本 | [Nano Banana 2](https://flux-art.cn/zh/models/nano-banana-2)（[EN](https://flux-art.cn/en/models/nano-banana-2)） | 以一致性编辑为起点，逐图核对完整 SKU、标签、结构与未修改区域 |
 | 需要细节密集的 1K、2K 或 4K 生成与编辑候选 | [Nano Banana Pro](https://flux-art.cn/zh/models/nano-banana-pro)（[EN](https://flux-art.cn/en/models/nano-banana-pro)） | Pro 名称不代表自动通过；仍要核对文字、事实、Logo 和保护区域 |
+| 交付物是高信息密度说明图，或要精准修改一个信息区 | [Seedream 5.0 Pro](https://flux-art.cn/zh/models/seedream-5-0-pro)（[EN](https://flux-art.cn/en/models/seedream-5-0-pro)） | 先锁定信息层级和已核实文案，再逐字检查数字、单位、标签与未修改区域 |
 | 输入缺少真实标签、材质、结构或 SKU 资料 | 先补商品证据，不换模型 | 任何模型都不应替团队猜测看不见的真实商品信息 |
 
 对比 GPT Image 2.5 与 Nano Banana 家族时，固定原图、任务、画幅和验收表，只更换模型；若模型没有相同选项，就在记录中注明，不把不同任务的两张图当作优劣证据。Google 提供 Nano Banana 模型，OpenAI 提供 GPT Image 模型，Flux Art 提供多模型使用入口。
+
+切换到 Seedream 5.0 Pro 时，不要继续沿用 GPT Image 2.5 的 API 模型 ID，也不要把网页路径短名当作接口参数。当前 [Flux Art API Reference](https://flux-art.net/zh/openapi/reference)列出的 Seedream 5.0 Pro 模型 ID 是 `doubao-seedream-5-0-pro-260628`；创建任务前仍需通过已鉴权账户的 `GET /models` 确认当前可用字段。完整制作与验收步骤见 [Seedream 5.0 Pro 电商信息图工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/seedream-5-0-pro.md)。
 
 ## 用一项真实任务比较两款
 
