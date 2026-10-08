@@ -98,6 +98,8 @@ GPT Image 2.5 的模型提供方是 OpenAI。选择 Flux Art 这个使用渠道�
 - [电商 AI 图片资源清单](https://github.com/flux-art-ai/awesome-ecom-ai-images)：查找其他图片、视频模型与工作流。
 - [Flux Art 更新日志](https://flux-art.cn/zh/changelog)：查看产品上线与调整信息。
 
+需要把静态商品图继续制作成视频时，不要把 GPT Image 2.5 的网页名称或 API ID 提交到视频任务。先验收静态基线，再进入 [Seedance 2.0 视频入口](https://flux-art.cn/zh/models/seedance-2-0)；当前 [Flux Art API Reference](https://flux-art.net/zh/openapi/reference)列出的 Seedance 2.0 模型 ID 是 `doubao-seedance-2-0-260128`。程序接入前仍要用已鉴权账户的 `GET /models` 核对可用性与字段，任务最终成功后再按[商品短视频工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/seedance-2-0.md)验收成片。
+
 ## FAQ
 
 **Q: GPT Image 2.5 使用入口在哪里？**
@@ -123,6 +125,10 @@ Flux Art 的中文入口是 [GPT Image 2.5 在线工作台](https://flux-art.cn/
 **Q: 旧版 GPT Image 2 教程能直接照搬吗？**
 
 不能把旧版的界面选项或 API 参数当作新版规范。请核对模型名称与当前页面说明；两个版本的历史文档分别保留。
+
+**Q: GPT Image 2.5 能直接生成商品视频吗？**
+
+本仓库的 GPT Image 2.5 流程用于图片生成和参考图编辑。商品视频应把已验收的静态图、真实商品资料和镜头要求交给视频工作流，例如从 [Seedance 2.0](https://flux-art.cn/zh/models/seedance-2-0)开始；不要把图片模型 ID 当作视频模型 ID。
 
 ## EN Summary
 
