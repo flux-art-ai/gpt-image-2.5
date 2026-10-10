@@ -23,6 +23,7 @@ Flare 与 Sunburst 都是 GPT Image 2.5 的生成与编辑选择，但模型内�
 |---|---|---|
 | 只需快速修改一张已有图片 | [Nano Banana](https://flux-art.cn/zh/models/nano-banana)（[EN](https://flux-art.cn/en/models/nano-banana)） | 当前定位为 1K 快速编辑；用同一原图与单一修改要求比较，不要同时重写整张画面 |
 | 还在试构图、道具或氛围方向 | [Nano Banana 2 Lite](https://flux-art.cn/zh/models/nano-banana-2-lite)（[EN](https://flux-art.cn/en/models/nano-banana-2-lite)） | 当前 1K 草图适合先缩小方向；未经商品事实复核的草图不能直接上架 |
+| 想尝试新上线、同时支持生成与编辑的 Nano Banana 入口 | [Nano Banana 2.1](https://flux-art.cn/zh/models/nano-banana-2-1)（[EN](https://flux-art.cn/en/models/nano-banana-2-1)） | 官网公告列出最高 4K；以同一素材和检查表比较，不把页面规格或模型定位当成优于 GPT Image 2.5 的实测结论 |
 | 需要先比较产品场景、社媒封面或带文字草图方向 | [Qwen Image 2.0](https://flux-art.cn/zh/models/qwen-image-2-0)（[EN](https://flux-art.cn/en/models/qwen-image-2-0)） | 先缩小构图与信息层级；关键文字、商品结构和未修改区域仍需独立复核 |
 | 已有通过母版，需要扩展系列版本 | [Nano Banana 2](https://flux-art.cn/zh/models/nano-banana-2)（[EN](https://flux-art.cn/en/models/nano-banana-2)） | 以一致性编辑为起点，逐图核对完整 SKU、标签、结构与未修改区域 |
 | 需要细节密集的 1K、2K 或 4K 生成与编辑候选 | [Nano Banana Pro](https://flux-art.cn/zh/models/nano-banana-pro)（[EN](https://flux-art.cn/en/models/nano-banana-pro)） | Pro 名称不代表自动通过；仍要核对文字、事实、Logo 和保护区域 |
