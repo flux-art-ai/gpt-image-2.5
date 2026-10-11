@@ -32,6 +32,8 @@ Flare 与 Sunburst 都是 GPT Image 2.5 的生成与编辑选择，但模型内�
 
 对比 GPT Image 2.5 与 Nano Banana 家族时，固定原图、任务、画幅和验收表，只更换模型；若模型没有相同选项，就在记录中注明，不把不同任务的两张图当作优劣证据。Google 提供 Nano Banana 模型，OpenAI 提供 GPT Image 模型，Flux Art 提供多模型使用入口。
 
+程序接入 Nano Banana 2.1 时，使用当前 [Flux Art API Reference](https://flux-art.net/zh/openapi/reference) 列出的 `gemini-nano-banana-2.1`，不要将其替换成网页 slug `nano-banana-2-1` 或 GPT Image 2.5 的 Flare/Sunburst ID。先用已鉴权账户的 `GET /models` 确认当前可用性与请求字段，再创建异步任务；网页端模型可见不代表 API 账户权限已验证。
+
 切换到 Qwen Image 2.0 时，网页路径中的 `qwen-image-2-0` 不是 API 参数。当前 [Flux Art API Reference](https://flux-art.net/zh/openapi/reference)列出的模型 ID 是 `qwen-image-2.0`；提交前用已鉴权账户的 `GET /models` 确认它与可用字段，不沿用 GPT Image 2.5 Flare 或 Sunburst 的 ID。Qwen Image 2.0 模型能力来自阿里 Qwen-Image 2.0 系列。
 
 切换到 Seedream 5.0 Pro 时，不要继续沿用 GPT Image 2.5 的 API 模型 ID，也不要把网页路径短名当作接口参数。当前 [Flux Art API Reference](https://flux-art.net/zh/openapi/reference)列出的 Seedream 5.0 Pro 模型 ID 是 `doubao-seedream-5-0-pro-260628`；创建任务前仍需通过已鉴权账户的 `GET /models` 确认当前可用字段。完整制作与验收步骤见 [Seedream 5.0 Pro 电商信息图工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/seedream-5-0-pro.md)。
