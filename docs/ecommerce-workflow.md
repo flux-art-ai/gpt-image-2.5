@@ -26,6 +26,12 @@
 
 完整 13 项工具导航见 [AI 电商专区](https://flux-art.cn/zh/ai-ecommerce)，操作分工见[电商工具选择指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/10-ecommerce-tools.md)。
 
+## 参考构图复刻还是 GPT Image 2.5 编辑？
+
+如果手头同时有自己的商品图和一张获准借鉴的构图参考，先用[爆款图片复刻](https://flux-art.cn/zh/ai-ecommerce/reference-clone)：页面要求两张图分别输入，并提供“构图”“均衡”“高度”模式与输出比例选项。商品图负责商品事实，参考图负责允许使用的视觉方向；不要复制其中的商标、参数或宣传声明。对应的[英文工具入口](https://flux-art.cn/en/ai-ecommerce/reference-clone)也可直接使用。
+
+如果目标是从一张已经验收的图片出发，只修背景、短文案或一个明确区域，则进入 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5)，选择 Flare 或 Sunburst 并逐轮对照原图。两种工作方式不互相替代：需要两张图承担不同职责时用复刻工具；已有结果要做有界修订时用模型编辑。页面模式或提示词都不是输出相似度、商品准确性或审核通过的保证，仍要核对商品身份、标签和使用授权。
+
 工具名称不等于底层模型名称。网页工具可用选项、输入要求与价格以官网当前为准；不能从 GPT Image 2.5 模型页反推出所有电商工具均采用它。
 
 ## SKU 不是只改一个颜色词
