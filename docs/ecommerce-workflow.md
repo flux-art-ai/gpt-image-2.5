@@ -30,6 +30,12 @@
 | 只需要专门处理背景 | [一键换背景](https://flux-art.cn/zh/ai-ecommerce/product-background) | 清晰主体与目标环境 |
 | 只需要修改真实在售配色 | [产品换色](https://flux-art.cn/zh/ai-ecommerce/product-recolor) | 真实配色资料与不应变化的商品细节 |
 
+### A+ 模块资料不是 GPT Image 2.5 的模型参数
+
+[Flux Art A+ 详情页工具](https://flux-art.cn/zh/ai-ecommerce/a-plus-content)当前将输入分为 1–5 张真实商品图、商品名称与类目、可选的已确认信息、A+ 模块选择和生成设置。先把商品图与资料表按 SKU、商品版本对应，再逐模块写明来源、待表达信息和禁止变化项；页面工具字段描述的是该电商工作流，不是 Flare 或 Sunburst 的参数，也不证明所有 A+ 模块都由 GPT Image 2.5 生成。
+
+GPT Image 2.5 适用于另一个明确任务：从已经验收的单张视觉出发，按当前模型页选择 Flare 或 Sunburst，对一个有依据的区域提出修改。若 A+ 模块中的商品结构、卖点、数字或包装文字需要调整，先回到对应真实商品资料确认，再决定是否用模型处理视觉；文案与数值需逐字复核，缺少依据时暂停，不让模型补猜。模块规划和逐项验收步骤见[详情页工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/05-detail-page.md)。
+
 完整 13 项工具导航见 [AI 电商专区](https://flux-art.cn/zh/ai-ecommerce)，操作分工见[电商工具选择指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/10-ecommerce-tools.md)。
 
 ## 参考构图复刻还是 GPT Image 2.5 编辑？
