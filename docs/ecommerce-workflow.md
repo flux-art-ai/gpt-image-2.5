@@ -30,6 +30,10 @@
 | 只需要专门处理背景 | [一键换背景](https://flux-art.cn/zh/ai-ecommerce/product-background) | 清晰主体与目标环境 |
 | 只需要修改真实在售配色 | [产品换色](https://flux-art.cn/zh/ai-ecommerce/product-recolor) | 真实配色资料与不应变化的商品细节 |
 
+### 面部替换是独立电商任务，不是 GPT Image 2.5 版本
+
+需要处理已获授权的模特图与面部参考时，使用 [AI 模特换脸](https://flux-art.cn/zh/ai-ecommerce/model-face-swap)专用入口；它不属于 GPT Image 2.5 模型选项，也不能据此推断其底层模型。仅当换脸候选整体通过、而一个局部视觉瑕疵有清晰依据时，再从已验收原图进入 GPT Image 2.5 并在界面选择 Flare 或 Sunburst 做限定编辑。若人物身份边界、发型或场景同时漂移，应回到换脸步骤的原始输入重新核验，不要连续编辑掩盖偏差。相关[模特图验收工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/09-model-photo.md)说明素材交接和停止条件。
+
 ### A+ 模块资料不是 GPT Image 2.5 的模型参数
 
 [Flux Art A+ 详情页工具](https://flux-art.cn/zh/ai-ecommerce/a-plus-content)当前将输入分为 1–5 张真实商品图、商品名称与类目、可选的已确认信息、A+ 模块选择和生成设置。先把商品图与资料表按 SKU、商品版本对应，再逐模块写明来源、待表达信息和禁止变化项；页面工具字段描述的是该电商工作流，不是 Flare 或 Sunburst 的参数，也不证明所有 A+ 模块都由 GPT Image 2.5 生成。
