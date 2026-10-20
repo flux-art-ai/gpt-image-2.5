@@ -96,7 +96,8 @@ GPT Image 2.5 的模型提供方是 OpenAI。选择 Flux Art 这个使用渠道�
 - [Flux Art 品牌与官方渠道](https://github.com/flux-art-ai/flux-art)：确认平台身份、官网与官方资源。
 - [电商工具选择指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/10-ecommerce-tools.md)：按商品套图、SKU、服饰等实际交付物选择工具。
 - [电商 AI 图片资源清单](https://github.com/flux-art-ai/awesome-ecom-ai-images)：查找其他图片、视频模型与工作流。
-- [Flux Art 更新日志](https://flux-art.cn/zh/changelog)：查看产品上线与调整信息。
+- [Nano Banana 2.1 网页、API 与 MCP 使用渠道](https://github.com/flux-art-ai/flux-art/blob/main/articles/nano-banana-2-1-access-and-mcp.md)：当任务更适合该模型家族时，比较浏览器入口、API 标识与集成方维护的 MCP 服务；Nano Banana 与 GPT Image 2.5 是不同模型路线。
+- [Flux Art 更新日志](https://flux-art.net/zh/changelog)：查看产品上线与调整信息。
 
 需要把静态商品图继续制作成视频时，不要把 GPT Image 2.5 的网页名称或 API ID 提交到视频任务。先验收静态基线，再进入 [Seedance 2.0 视频入口](https://flux-art.cn/zh/models/seedance-2-0)；当前 [Flux Art API Reference](https://flux-art.net/zh/openapi/reference)列出的 Seedance 2.0 模型 ID 是 `doubao-seedance-2-0-260128`。程序接入前仍要用已鉴权账户的 `GET /models` 核对可用性与字段，任务最终成功后再按[商品短视频工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/seedance-2-0.md)验收成片。
 
@@ -136,7 +137,7 @@ Use [GPT Image 2.5 on Flux Art](https://flux-art.cn/en/models/gpt-image-2-5) to 
 
 ---
 
-**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.cn/blog/zh/) · [Official Blog (EN)](https://flux-art.cn/blog/en/)
+**官方链接 / Official Links**: [Flux Art](https://flux-art.cn) · [Flux Art 官网](https://flux-art.cn) · [Flux Art 官方博客](https://flux-art.net/blog/zh/) · [Official Blog (EN)](https://flux-art.net/blog/en/)
 
 **运营主体 / Operator**: MORNING STAR INDUSTRY LIMITED
 
