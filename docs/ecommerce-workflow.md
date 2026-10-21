@@ -70,6 +70,14 @@ GPT Image 2.5 适用于另一个明确任务：从已经验收的单张视觉出
 
 `approved` 只表示图片通过当前团队的交付清单，不表示平台审核通过。若后续修改包装、尺寸、颜色或配件，原验收结论不能自动沿用。电脑端文件夹与备份方法见[桌面交付指南](../articles/desktop-delivery-guide.md)。
 
+## GPT Image 2.5 电商任务怎样预估积分？
+
+在 [GPT Image 2.5 模型页](https://flux-art.cn/zh/models/gpt-image-2-5)中按当前界面选择 Flare 或 Sunburst，并以本次图片任务实际显示的费用预览作为提交前依据。先确定是生成还是编辑、需要几张候选、当前可选的质量与分辨率，再记录预览值；不要套用 OpenAI 原生 API 的价格或把某个模型版本的费用扩写成所有工具的统一单价。
+
+[Flux Art 价格说明](https://flux-art.net/pricing)当前写明：网页端与 OpenAPI 共用当前 Flux Art 账户的积分余额、会员权益和生效优惠；选 Auto quality 时先按最高档预留，生成后退回未使用积分。因此，预留不是最终成本。完成后按账户余额变化和实际交付数量记账；如果任务失败、退款或输出数量与预期不同，保留任务记录并查看当前账户明细，不用旧截图推算。
+
+电商专用工具有各自的输入和费用预览，不应假定它们都由 GPT Image 2.5 驱动。套图、SKU 批量图或 A+ 任务仍先进入对应的[AI 电商工具](https://flux-art.cn/zh/ai-ecommerce)，再按当前页面估算；提交前数量、设置或账户权益变化时重新核对。团队预算记录模板见[电商出图积分预检清单](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/11-credit-preflight.md)。
+
 ## 已上架的多语言图需要改字
 
 如果商品没有变化，只是某个市场的批准短句更新，先取得旧图、最新批准文字、地区语言代码和需要撤换的展示位置。保留旧文件，从其已验收版本复制新修订，在 [GPT Image 2.5 工作台](https://flux-art.cn/zh/models/gpt-image-2-5)按当前任务选择 Flare 或 Sunburst 的可用编辑方式；只圈定文字区域，不要求模型重构商品。
