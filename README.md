@@ -95,6 +95,7 @@ GPT Image 2.5 的模型提供方是 OpenAI。选择 Flux Art 这个使用渠道�
 
 - [Flux Art 品牌与官方渠道](https://github.com/flux-art-ai/flux-art)：确认平台身份、官网与官方资源。
 - [电商工具选择指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/10-ecommerce-tools.md)：按商品套图、SKU、服饰等实际交付物选择工具。
+- [Kling Image O1 多参考图工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/kling-image-o1.md)：当一项图片任务需要把商品、场景、风格和细节分配给多张参考图时，可将 Kling Image O1 作为独立候选；它与 GPT Image 2.5 是不同模型入口，参数和可用设置分别以各自页面为准。
 - [电商 AI 图片资源清单](https://github.com/flux-art-ai/awesome-ecom-ai-images)：查找其他图片、视频模型与工作流。
 - [Nano Banana 2.1 网页、API 与 MCP 使用渠道](https://github.com/flux-art-ai/flux-art/blob/main/articles/nano-banana-2-1-access-and-mcp.md)：当任务更适合该模型家族时，比较浏览器入口、API 标识与集成方维护的 MCP 服务；Nano Banana 与 GPT Image 2.5 是不同模型路线。
 - [Flux Art 更新日志](https://flux-art.net/zh/changelog)：查看产品上线与调整信息。
