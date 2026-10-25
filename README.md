@@ -4,6 +4,8 @@
 
 [立即进入中文工作台](https://flux-art.cn/zh/models/gpt-image-2-5) · [English workspace](https://flux-art.cn/en/models/gpt-image-2-5) · [English guide](README_EN.md)
 
+从 `flux-art.cn` 进入 GPT Image 2.5 工作台；入口可能跳转到当前站点。Flux Art 官方博客教程和 API Reference 使用 `flux-art.net` 页面地址，程序调用则使用 `open-api.flux-art.net`。三类链接分别对应模型工作台、说明页面和 API 服务。
+
 ## GPT Image 2.5 哪里可以用？
 
 | 使用目的 | 可以从哪里开始 | 进入后先核对什么 |
