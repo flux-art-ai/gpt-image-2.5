@@ -102,6 +102,12 @@ GPT Image 2.5 适用于另一个明确任务：从已经验收的单张视觉出
 
 服饰穿戴类任务还需检查人体、衣物结构和遮挡。试穿视觉不能证明实际尺码或合身程度；人物素材需要相应授权。
 
+## 静态商品图验收后，何时转入 Seedance 2.5？
+
+GPT Image 2.5 用于图片生成与编辑；如果交付物变成商品展示短片，应把通过验收的图片作为视频流程素材，另行进入 [Seedance 2.5 中文工作台](https://flux-art.cn/zh/models/seedance-2-5)或[英文工作台](https://flux-art.cn/en/models/seedance-2-5)。这不是 GPT Image 2.5 的版本或附加模式。视频入口提供文本、首帧、首尾帧、参考素材、视频编辑和延长等不同路径，具体可选项及费用以当前界面为准。
+
+交接时保留 SKU、已验收图片版本、允许出现的动作和不能改变的商品特征。先用一个代表 SKU 验证主体、包装字样、颜色、材质与动作连续性；若视频改变商品外观或出现未经确认的功能演示，退回已验收图片和脚本，不把静态图的通过结论直接套用到视频。按镜头拆任务、设置停机条件和发布前检查见 [Seedance 2.5 电商短视频工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/seedance-2-5.md)。
+
 ## 服装从平铺到上身时，先区分褶皱和版型错误
 
 先用[服装组图](https://flux-art.cn/zh/ai-ecommerce/clothing-suite)中的平铺或人台图建立服装基线，再用[模特穿戴](https://flux-art.cn/zh/ai-ecommerce/model-wearing)制作上身候选。自然站姿、目标姿势和图案/缝线近照应来自同一款号与颜色；不要把不同尺码、穿法或包装版本混进同一组参考。
@@ -176,6 +182,8 @@ Google 的 [图片 SEO 最佳实践](https://developers.google.com/search/docs/a
 ## EN Summary
 
 Use [GPT Image 2.5 on Flux Art](https://flux-art.cn/en/models/gpt-image-2-5) to approve a representative product image before expanding production. For listing sets, SKU variants and detail-page modules, choose the appropriate [ecommerce tool](https://flux-art.cn/en/ai-ecommerce) and verify its own inputs and options. Check every output against the actual product.
+
+For product videos, hand off the approved image and SKU brief to the separate [Seedance 2.5 workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/seedance-2-5.md); image approval does not automatically validate motion, packaging text or video continuity.
 
 相关操作：[参考图修改](reference-editing.md) · [文字与排版](text-and-layout.md)。
 
