@@ -30,6 +30,10 @@ Flare is positioned for quick everyday creative exploration. Sunburst focuses on
 
 For a fair practical comparison, use the same reference, prompt, dimensions and quality. Judge the requested change, preserved details, text and composition. Do not compare a low-quality draft against a higher-quality final and attribute every difference to the model.
 
+## GPT Image 2.6 is a separate version
+
+The [GPT Image 2.6 Chinese entry](https://flux-art.cn/zh/models/gpt-image-2-6) and [English entry](https://flux-art.cn/en/models/gpt-image-2-6) are separate model pages, not a rename or automatic upgrade of GPT Image 2.5. This repository remains focused on GPT Image 2.5. To evaluate 2.6, start a separate task with its own entry and check the controls shown there; do not reuse 2.5 API IDs or assume its settings apply.
+
 ## A ready-to-use prompt
 
 > A clear glass teapot containing pale golden tea on a light gray stone surface. Soft window light from the upper right. Horizontal composition with the teapot on the right and clean empty space on the left. No text, logos or additional tableware.

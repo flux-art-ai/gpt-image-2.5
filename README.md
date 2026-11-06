@@ -39,6 +39,10 @@ GPT Image 2.5 的模型提供方是 OpenAI。选择 Flux Art 这个使用渠道�
 
 需要继续使用旧版时，可按 [GPT Image 2 电商产品图实操](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/gpt-image-2.md)准备商品事实和验收表。需要比较 2.5 时，从同一通过基线开始，再进入下方 Flare / Sunburst 选择。
 
+## GPT Image 2.6 是独立版本
+
+[GPT Image 2.6 中文入口](https://flux-art.cn/zh/models/gpt-image-2-6)与[英文入口](https://flux-art.cn/en/models/gpt-image-2-6)对应独立的模型页面，并非 GPT Image 2.5 的改名或自动升级。本仓继续说明 GPT Image 2.5；如要评估 2.6，请另开任务记录、使用对应入口，并按该页面当前展示核对模式、质量和尺寸，不要把 2.5 的 API ID 或教程参数直接套过去。
+
 ## Flare 与 Sunburst 怎么选？
 
 | 当前任务 | 起步选择 | 判断结果是否合适 |
