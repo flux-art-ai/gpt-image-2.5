@@ -34,6 +34,8 @@ For a fair practical comparison, use the same reference, prompt, dimensions and 
 
 The [GPT Image 2.6 Chinese entry](https://flux-art.cn/zh/models/gpt-image-2-6) and [English entry](https://flux-art.cn/en/models/gpt-image-2-6) are separate model pages, not a rename or automatic upgrade of GPT Image 2.5. This repository remains focused on GPT Image 2.5. To evaluate 2.6, start a separate task with its own entry and check the controls shown there; do not reuse 2.5 API IDs or assume its settings apply.
 
+GPT Image 2.6 GIF and SVG modes are new text-to-image paths and do not accept reference images; this does not change the GPT Image 2.5 workflows documented here. For a looping animation or SVG task, consult the [2.6 model page](https://flux-art.cn/en/models/gpt-image-2-6) and the [format-specific workflow and QA guide](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/gpt-image-2-6-gif-svg.md). Do not assume that 2.5 entry points, API IDs or settings apply.
+
 ## A ready-to-use prompt
 
 > A clear glass teapot containing pale golden tea on a light gray stone surface. Soft window light from the upper right. Horizontal composition with the teapot on the right and clean empty space on the left. No text, logos or additional tableware.
