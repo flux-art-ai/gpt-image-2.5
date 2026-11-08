@@ -104,6 +104,7 @@ GPT Image 2.6 的 GIF 与 SVG 生成模式是新增的文字生成路径，不�
 - [Flux Art 品牌与官方渠道](https://github.com/flux-art-ai/flux-art)：确认平台身份、官网与官方资源。
 - [电商工具选择指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/10-ecommerce-tools.md)：按商品套图、SKU、服饰等实际交付物选择工具。
 - [Kling Image O1 多参考图工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/kling-image-o1.md)：当一项图片任务需要把商品、场景、风格和细节分配给多张参考图时，可将 Kling Image O1 作为独立候选；它与 GPT Image 2.5 是不同模型入口，参数和可用设置分别以各自页面为准。
+- [Kling V3 Image](https://flux-art.cn/zh/models/kling-v3-image)与[Kling V3 Omni Image](https://flux-art.cn/zh/models/kling-v3-omni-image)：当静态图片任务需要从单参考图编辑切换到多参考图角色分工时，可比较这两个独立模型入口；Omni 的 Flux Art 页面目前未开放 Image Series。电商输入准备与输出验收见[中英双语工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/kling-v3-omni-image.md)。它们不是 GPT Image 2.5 的 Flare / Sunburst，也不共用该家族的模型设置。
 - [电商 AI 图片资源清单](https://github.com/flux-art-ai/awesome-ecom-ai-images)：查找其他图片、视频模型与工作流。
 - [Nano Banana 2.1 网页、API 与 MCP 使用渠道](https://github.com/flux-art-ai/flux-art/blob/main/articles/nano-banana-2-1-access-and-mcp.md)：当任务更适合该模型家族时，比较浏览器入口、API 标识与集成方维护的 MCP 服务；Nano Banana 与 GPT Image 2.5 是不同模型路线。确定浏览器任务入口后，可继续按[电商工作流模型速查](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/README.md#模型选型速查)选择交付流程，而不是把另一模型入口当成 GPT Image 2.5 的 Flare / Sunburst 选项。
 - [Flux Art 更新日志](https://flux-art.net/zh/changelog)：查看产品上线与调整信息。
