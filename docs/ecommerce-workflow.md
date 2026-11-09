@@ -161,6 +161,12 @@ Google 的 [图片 SEO 最佳实践](https://developers.google.com/search/docs/a
 
 对于从 [GPT Image 2.5](https://flux-art.cn/zh/models/gpt-image-2-5)导出的 Flare 或 Sunburst 成片，应将图片描述视作交付环节，而非模型输出声明。若结果尚未通过商品检查，不要先为它编写正式商品页描述。
 
+## Etsy 上架图的未编辑实物照片与 GPT Image 2.5 辅助图
+
+如果目标渠道是 Etsy，先阅读其[当前商品图片要求](https://www.etsy.com/legal/policy/listing-image-requirements/253962679005)，并确认具体商品类别是否有例外。Etsy 对多数商品要求至少保留一张在真实背景下拍摄、未经编辑的实际商品照片；这张照片不得通过 GPT Image 2.5 或其他编辑工具改变。是否把它作为首图由卖家按平台规则和商品呈现需要决定，首图仍必须清楚、真实。
+
+其他图片可以在准确呈现实物的前提下使用 AI 辅助处理，例如调整背景；不要改变真实颜色、材质、结构或成色，也不要隐藏瑕疵。将未编辑原片单独保留，再从副本开始编辑。生成后逐一对照商品实拍和资料，检查轮廓、颜色、比例、材质、配件及缺陷呈现；无法确认的差异退回，不用多轮生成掩盖。此项是 Etsy 特定要求，不代表其他电商渠道采用相同规则。需要完整的中英素材分组和验收清单，见[工作流仓库的 Etsy 图片指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/15-etsy-listing-image-review.md)。
+
 ## FAQ
 
 **Q: 可以直接用文字生成真实商品图吗？**
@@ -182,6 +188,8 @@ Google 的 [图片 SEO 最佳实践](https://developers.google.com/search/docs/a
 ## EN Summary
 
 Use [GPT Image 2.5 on Flux Art](https://flux-art.cn/en/models/gpt-image-2-5) to approve a representative product image before expanding production. For listing sets, SKU variants and detail-page modules, choose the appropriate [ecommerce tool](https://flux-art.cn/en/ai-ecommerce) and verify its own inputs and options. Check every output against the actual product.
+
+For Etsy, check the current [Listing Image Requirements](https://www.etsy.com/legal/policy/listing-image-requirements/253962679005). Most listings need an unedited photo of the actual item; use GPT Image 2.5 only for separate supporting images that still represent the item accurately. Keep the source photo untouched, check category exceptions and compare each edit with the real product. This Etsy-specific note is not a universal marketplace rule. See the [bilingual Etsy image workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/15-etsy-listing-image-review.md).
 
 For product videos, hand off the approved image and SKU brief to the separate [Seedance 2.5 workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/seedance-2-5.md); image approval does not automatically validate motion, packaging text or video continuity.
 
