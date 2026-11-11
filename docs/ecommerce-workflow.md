@@ -46,7 +46,13 @@ Flux Art 的参考图精细编辑公告介绍了生成前在图片上自由绘�
 
 GPT Image 2.5 适用于另一个明确任务：从已经验收的单张视觉出发，按当前模型页选择 Flare 或 Sunburst，对一个有依据的区域提出修改。若 A+ 模块中的商品结构、卖点、数字或包装文字需要调整，先回到对应真实商品资料确认，再决定是否用模型处理视觉；文案与数值需逐字复核，缺少依据时暂停，不让模型补猜。模块规划和逐项验收步骤见[详情页工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/05-detail-page.md)。
 
-完整 13 项工具导航见 [AI 电商专区](https://flux-art.cn/zh/ai-ecommerce)，操作分工见[电商工具选择指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/10-ecommerce-tools.md)。
+完整电商工具导航见 [AI 电商专区](https://flux-art.cn/zh/ai-ecommerce)，操作分工见[电商工具选择指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/10-ecommerce-tools.md)。
+
+## 批量加水印是成片后处理，不是 GPT Image 2.5 设置
+
+已验收的多张商品图片需要统一加品牌文字或 Logo 时，可进入 Flux Art 的[批量加水印工具](https://flux-art.cn/zh/ai-tools/batch-watermark)。页面提供单个水印与全图平铺布局，并可调整位置、大小、不透明度和边距；这些选项属于独立的图片处理工具，不是 GPT Image 2.5 Flare 或 Sunburst 的提示词和模型参数。
+
+操作顺序是先确定获准使用的文字或 Logo、按 SKU 分好图片，再选单点或平铺布局；先检查一张代表图在商品轮廓、标签和卖点位置上的遮挡与可读性，通过后再处理其余图片。可见水印不是 AI 来源元数据，也不代表符合所有平台的披露规则。详细选项以[当前工具页](https://flux-art.cn/zh/ai-tools/batch-watermark)为准。
 
 ## 参考构图复刻还是 GPT Image 2.5 编辑？
 
@@ -196,6 +202,8 @@ Use [GPT Image 2.5 on Flux Art](https://flux-art.cn/en/models/gpt-image-2-5) to 
 For Etsy, check the current [Listing Image Requirements](https://www.etsy.com/legal/policy/listing-image-requirements/253962679005). Most listings need an unedited photo of the actual item; use GPT Image 2.5 only for separate supporting images that still represent the item accurately. Keep the source photo untouched, check category exceptions and compare each edit with the real product. This Etsy-specific note is not a universal marketplace rule. See the [bilingual Etsy image workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/15-etsy-listing-image-review.md).
 
 For Amazon listings or A+ content, check whether an image contains photorealistic people generated entirely by AI. Amazon's current guidance calls for the `contains-synthetic-performer` XMP `dc:subject` tag when applicable; this is an upload-stage metadata task, not a GPT Image 2.5 setting. Verify the current [Amazon image guide](https://sellercentral.amazon.com/help/hub/reference/G1881) and [tagging guide](https://sellercentral.amazon.com/help/hub/reference/GFXHCHYZRGJRBZA5). Do not apply this marketplace-specific rule to other channels.
+
+For a visible text or logo mark on finished images, use Flux Art’s separate [Batch Watermark tool](https://flux-art.cn/en/ai-tools/batch-watermark), not a GPT Image 2.5 prompt. Review one representative image for obstruction and readability before processing the batch. A visible mark is not AI-source metadata or a substitute for marketplace disclosure rules.
 
 For product videos, hand off the approved image and SKU brief to the separate [Seedance 2.5 workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/seedance-2-5.md); image approval does not automatically validate motion, packaging text or video continuity.
 
