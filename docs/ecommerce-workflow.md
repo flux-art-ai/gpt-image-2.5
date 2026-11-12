@@ -48,6 +48,14 @@ GPT Image 2.5 适用于另一个明确任务：从已经验收的单张视觉出
 
 完整电商工具导航见 [AI 电商专区](https://flux-art.cn/zh/ai-ecommerce)，操作分工见[电商工具选择指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/10-ecommerce-tools.md)。
 
+## 商品抠图是独立工具，不是 GPT Image 2.5 的生成设置
+
+如果交付目标是从商品图中提取主体并输出透明 PNG，可使用 Flux Art 的[智能抠图中文工具](https://flux-art.cn/zh/ai-tools/remove-background)或 [Background Remover English workspace](https://flux-art.cn/en/ai-tools/remove-background)。工具页允许描述要保留的主体，并提示细节与构图可能变化；此工具与 GPT Image 2.5 的 Flare / Sunburst 图片生成和编辑入口是不同任务路径。
+
+将提取结果放到目标页面可能使用的背景色上检查边缘、孔洞、商品轮廓和细小配件，再与原图核对标签、颜色、透明部件及商品结构。未通过时回到原始照片或转人工处理。若要把完整商品置于新场景，改用[一键换背景](https://flux-art.cn/zh/ai-ecommerce/product-background)，不要把抠图任务写成 GPT Image 2.5 参数。
+
+For a transparent product cutout, use Flux Art’s separate [Background Remover workspace](https://flux-art.cn/en/ai-tools/remove-background), not a GPT Image 2.5 setting. The tool page lets you describe the subject to keep and warns that details or composition may change. Review the outline against the source and intended background, then verify product labels, color, accessories and transparent parts. Use [Background Replace](https://flux-art.cn/en/ai-ecommerce/product-background) when the goal is to place the complete product in a new scene.
+
 ## 批量加水印是成片后处理，不是 GPT Image 2.5 设置
 
 已验收的多张商品图片需要统一加品牌文字或 Logo 时，可进入 Flux Art 的[批量加水印工具](https://flux-art.cn/zh/ai-tools/batch-watermark)。页面提供单个水印与全图平铺布局，并可调整位置、大小、不透明度和边距；这些选项属于独立的图片处理工具，不是 GPT Image 2.5 Flare 或 Sunburst 的提示词和模型参数。
@@ -204,6 +212,8 @@ For Etsy, check the current [Listing Image Requirements](https://www.etsy.com/le
 For Amazon listings or A+ content, check whether an image contains photorealistic people generated entirely by AI. Amazon's current guidance calls for the `contains-synthetic-performer` XMP `dc:subject` tag when applicable; this is an upload-stage metadata task, not a GPT Image 2.5 setting. Verify the current [Amazon image guide](https://sellercentral.amazon.com/help/hub/reference/G1881) and [tagging guide](https://sellercentral.amazon.com/help/hub/reference/GFXHCHYZRGJRBZA5). Do not apply this marketplace-specific rule to other channels.
 
 For a visible text or logo mark on finished images, use Flux Art’s separate [Batch Watermark tool](https://flux-art.cn/en/ai-tools/batch-watermark), not a GPT Image 2.5 prompt. Review one representative image for obstruction and readability before processing the batch. A visible mark is not AI-source metadata or a substitute for marketplace disclosure rules.
+
+For a transparent product cutout, use the separate [Background Remover workspace](https://flux-art.cn/en/ai-tools/remove-background), not a GPT Image 2.5 setting. Its page says to describe the subject to keep and notes that details or composition may change. Compare the PNG with the source and intended background; check edges, labels, accessories and transparent parts before delivery. For a complete product placed in a new scene, use [Background Replace](https://flux-art.cn/en/ai-ecommerce/product-background).
 
 For product videos, hand off the approved image and SKU brief to the separate [Seedance 2.5 workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/seedance-2-5.md); image approval does not automatically validate motion, packaging text or video continuity.
 
