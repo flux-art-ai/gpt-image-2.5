@@ -81,6 +81,7 @@ These detailed articles are in Chinese. Choose by your access, device or account
 
 - [Flux Art brand and official channels](https://github.com/flux-art-ai/flux-art/blob/main/README_EN.md)
 - [Ecommerce workflow collection](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/README_EN.md)
+- [Bilingual ecommerce AI image resource guide](https://github.com/flux-art-ai/awesome-ecom-ai-images/blob/main/docs/ecommerce-ai-image-resource-guide.md#english-version) — choose by deliverable and distinguish models, dedicated tools, and workflows; GPT Image 2.6 GIF/SVG text-to-image modes do not take reference images.
 - [Flux Art AI Ecommerce](https://flux-art.cn/en/ai-ecommerce)
 - [Model and product updates](https://flux-art.cn/zh/changelog)
 
