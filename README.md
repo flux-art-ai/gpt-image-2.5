@@ -45,6 +45,8 @@ GPT Image 2.5 的模型提供方是 OpenAI。选择 Flux Art 这个使用渠道�
 
 GPT Image 2.6 的 GIF 与 SVG 生成模式是新增的文字生成路径，不接收参考图；这不改变本仓讨论的 GPT Image 2.5 工作流。若任务需要循环动图或 SVG 图形，请另行查看[2.6 官方页面](https://flux-art.cn/zh/models/gpt-image-2-6)及[格式制作与验收指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/gpt-image-2-6-gif-svg.md)，不要假设 2.5 的入口、API ID 或设置适用。
 
+同样不要把 2.6 工作台展示的 GIF/SVG 模式推定为本仓 2.5 API 的输出字段。GPT Image 2.5 的接口仍应按[本仓 API 说明](docs/pricing-and-api.md)、当前 [API Reference](https://flux-art.net/zh/openapi/reference)和账户模型目录逐项核对；没有文档依据时，不要在 2.5 请求中添加格式参数。
+
 ## Flare 与 Sunburst 怎么选？
 
 | 当前任务 | 起步选择 | 判断结果是否合适 |
