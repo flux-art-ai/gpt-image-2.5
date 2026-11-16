@@ -59,6 +59,12 @@ Flux Art 的 OpenAPI 基址为 `https://open-api.flux-art.net/openapi/v1`。当�
 
 网络错误或 5xx 重试时保留同一请求体与幂等键；不同请求不得复用同一个键。任务失败、取消、扣费与退款以实际响应中的状态和 `usage` 为准。
 
+## GPT Image 2.5 API 报错后怎样保留排障线索？
+
+先区分创建请求与已有任务查询。余额或会员资格不足会返回 `402` 且不创建任务；`409 idempotency_key_reused` 表示幂等键关联了不同请求，不能为同一待处理请求随意换键；`422 validation_error` 应先按 `error.details` 修正字段；`429` 遵循 `Retry-After`。网络超时或 `5xx` 时，只有在同一请求体和原 `Idempotency-Key` 可恢复时才按 Reference 退避重试。
+
+每个错误响应还包含 `request_id`。将它与 HTTP 状态码、`error.code`、使用的 GPT Image 2.5 API ID 和已创建的 `task_id` 一起保存在受控记录中；提交支持请求时不要附 API Key、私人素材 URL 或未脱敏的请求体。新任务收到 `201` 后保存任务 ID 并查询原任务，不要仅因状态仍是 `queued` 或 `processing` 而重新创建。完整状态码表见 [Flux Art OpenAPI Reference](https://flux-art.net/zh/openapi/reference) 和[工作流 API 错误处理指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/api/README.md#错误处理速查)。
+
 ## 不要直接复用旧版 API 参数
 
 把 GPT Image 2 的模型名改成 2.5，不能证明调用成立；不同服务商还可能采用不同的鉴权、字段和异步任务方式。应先取得当前接口契约，再写对应代码。
@@ -96,6 +102,8 @@ API Key 应保存在服务端或受控的密钥管理环境中，不放入公开
 ## EN Summary
 
 Review the displayed cost before using [GPT Image 2.5 on Flux Art](https://flux-art.cn/en/models/gpt-image-2-5). Web availability does not prove an identical API contract. Confirm the provider-specific model ID, request fields, task status and billing rules before integration; never publish credentials.
+
+For API errors, retain the HTTP status, `error.code`, `request_id`, GPT Image 2.5 API model ID, and any existing `task_id` in a controlled incident record. A `402` does not create a task; a `409` requires checking whether the idempotency key was reused for a different request; correct `422` fields from `error.details`; and honor `Retry-After` on `429`. For a timeout or `5xx`, retry only with the original request body and idempotency key. Never share an API key, private media URL, or unredacted request body. See the [OpenAPI Reference](https://flux-art.net/en/openapi/reference) and [error-handling guide](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/api/README.md#错误处理速查).
 
 相关内容：[入口故障排查](access-troubleshooting.md) · [Flare 与 Sunburst 选择](flare-vs-sunburst.md)。
 
