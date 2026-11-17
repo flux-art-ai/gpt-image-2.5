@@ -56,6 +56,14 @@ GPT Image 2.5 适用于另一个明确任务：从已经验收的单张视觉出
 
 For a transparent product cutout, use Flux Art’s separate [Background Remover workspace](https://flux-art.cn/en/ai-tools/remove-background), not a GPT Image 2.5 setting. The tool page lets you describe the subject to keep and warns that details or composition may change. Review the outline against the source and intended background, then verify product labels, color, accessories and transparent parts. Use [Background Replace](https://flux-art.cn/en/ai-ecommerce/product-background) when the goal is to place the complete product in a new scene.
 
+## 移除照片中的干扰物时，不要把它当成 GPT Image 2.5 参数
+
+若现有商品照片中有需要清除的路人或杂物，Flux Art 提供独立的[智能消除工具](https://flux-art.cn/zh/ai-tools/object-remover)（[Object Remover English tool](https://flux-art.cn/en/ai-tools/object-remover)）。工具页说明需要上传一张静态图片、涂抹待移除对象；附加要求可选填，处理会尝试补全周围背景。它属于单独的后处理入口，并非 GPT Image 2.5 Flare/Sunburst 的模型开关或固定底层能力。
+
+涂抹前先确认目标物与商品轮廓、标签、Logo、反光部件和必须保留对象的边界。输出后检查修补纹理、阴影、透视和被遮挡区域；如补全结果改写了商品事实，退回原片，不用 GPT Image 2.5 多轮提示词把猜测固化成新版本。清除干扰物、提取透明主体、替换完整场景和重新编辑选区是四种不同交付目标，应分别选择智能消除、智能抠图、一键换背景或局部重绘。
+
+For an unwanted person or prop, use the separate [Object Remover tool](https://flux-art.cn/en/ai-tools/object-remover), not a GPT Image 2.5 setting. It accepts one static image and a brushed selection, then attempts to fill the surrounding background; optional instructions can say what nearby item must remain. Review the repaired area and any product detail hidden behind the removed object. If the reconstruction changes verified product facts, return to the source instead of reinforcing it with more model edits.
+
 ## 批量加水印是成片后处理，不是 GPT Image 2.5 设置
 
 已验收的多张商品图片需要统一加品牌文字或 Logo 时，可进入 Flux Art 的[批量加水印工具](https://flux-art.cn/zh/ai-tools/batch-watermark)。页面提供单个水印与全图平铺布局，并可调整位置、大小、不透明度和边距；这些选项属于独立的图片处理工具，不是 GPT Image 2.5 Flare 或 Sunburst 的提示词和模型参数。
