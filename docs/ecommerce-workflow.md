@@ -46,6 +46,8 @@ Flux Art 的参考图精细编辑公告介绍了生成前在图片上自由绘�
 
 GPT Image 2.5 适用于另一个明确任务：从已经验收的单张视觉出发，按当前模型页选择 Flare 或 Sunburst，对一个有依据的区域提出修改。若 A+ 模块中的商品结构、卖点、数字或包装文字需要调整，先回到对应真实商品资料确认，再决定是否用模型处理视觉；文案与数值需逐字复核，缺少依据时暂停，不让模型补猜。模块规划和逐项验收步骤见[详情页工作流](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/05-detail-page.md)。
 
+在目标商品页、广告位或内容系统中使用图片前，先确认目标位置接受 GIF/SVG 等格式，并预览上传后的尺寸、裁切和播放状态；必要时同时交付经核验的静态备份。工作台存在某种输出格式，不等于目标渠道会保留动画、矢量细节或原始尺寸。GPT Image 2.6 的格式入口与限制见[格式制作和验收指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/gpt-image-2-6-gif-svg.md)，不属于本页说明的 GPT Image 2.5 参数。
+
 完整电商工具导航见 [AI 电商专区](https://flux-art.cn/zh/ai-ecommerce)，操作分工见[电商工具选择指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/10-ecommerce-tools.md)。
 
 ## 商品抠图是独立工具，不是 GPT Image 2.5 的生成设置
@@ -216,6 +218,8 @@ GPT Image 2.5 可用于制作模特穿戴候选，但模型生成与渠道披露
 Use [GPT Image 2.5 on Flux Art](https://flux-art.cn/en/models/gpt-image-2-5) to approve a representative product image before expanding production. For listing sets, SKU variants and detail-page modules, choose the appropriate [ecommerce tool](https://flux-art.cn/en/ai-ecommerce) and verify its own inputs and options. Check every output against the actual product.
 
 For Etsy, check the current [Listing Image Requirements](https://www.etsy.com/legal/policy/listing-image-requirements/253962679005). Most listings need an unedited photo of the actual item; use GPT Image 2.5 only for separate supporting images that still represent the item accurately. Keep the source photo untouched, check category exceptions and compare each edit with the real product. This Etsy-specific note is not a universal marketplace rule. See the [bilingual Etsy image workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/15-etsy-listing-image-review.md).
+
+If a separate workflow produces a GIF or SVG, confirm that the intended listing, ad placement or content system accepts the format and preview the uploaded result. Keep a reviewed static fallback where needed. GPT Image 2.6 format controls do not establish GPT Image 2.5 capabilities or prove that a destination preserves animation, vector details or original dimensions; see the [format-specific workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/gpt-image-2-6-gif-svg.md).
 
 For Amazon listings or A+ content, check whether an image contains photorealistic people generated entirely by AI. Amazon's current guidance calls for the `contains-synthetic-performer` XMP `dc:subject` tag when applicable; this is an upload-stage metadata task, not a GPT Image 2.5 setting. Verify the current [Amazon image guide](https://sellercentral.amazon.com/help/hub/reference/G1881) and [tagging guide](https://sellercentral.amazon.com/help/hub/reference/GFXHCHYZRGJRBZA5). Do not apply this marketplace-specific rule to other channels.
 
