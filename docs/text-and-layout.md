@@ -1,6 +1,6 @@
 # GPT Image 2.5 中文文字与海报排版：使用入口和提示词｜Flux Art
 
-使用 GPT Image 2.5 制作带文字的图片，可以从 [Flux Art 在线入口](https://flux-art.cn/zh/models/gpt-image-2-5)开始，先确定画面结构，再提供准确文案和位置。短标题适合直接尝试；密集参数、价格说明和长段正文更适合在排版工具中完成，不能省略逐字校对。
+GPT Image 2.5 商品图小字模糊时，不必先重新生成：若下载图已经有坏字，用准确信息重排；若下载图清楚，先查导出或页面展示。通过 [Flux Art 在线入口](https://flux-art.cn/zh/models/gpt-image-2-5)制作带文字的图片时，先确定构图、准确文案和位置。短标题可以直接尝试；密集参数、价格说明和长段正文更适合在排版工具中完成，不能省略逐字校对。
 
 [全部使用教程](../README.md) · [English workspace](https://flux-art.cn/en/models/gpt-image-2-5)
 
@@ -121,6 +121,15 @@
 
 提高质量或尺寸不等于消除文字错误。模型质量选项、价格及活动以官网当前为准。
 
+## 下载图里小字发虚，GPT Image 2.5 还值得重跑吗？
+
+先在同一个局部区分「字写错了」和「字正确但不清楚」。例如，已批准的单位是 `mL`，下载图写成另一个单位，属于内容错误；若下载图原字清楚，只在渠道导出后变成一团，则保留生成母图，从排版母版重做那个版位，不必把文件交回 Flare 或 Sunburst。
+
+- **文案是后加的规格说明**：保留商品画面，用排版工具放入批准文本；缩到实际展示宽度复查同一行。必要时让必读规格使用页面文字。
+- **文字印在真实包装上**：优先采用清晰的标签实拍或经批准的包装素材；参考图看不清时不要让模型猜。只有已确认原文、并且需要改的是独立的短标题时，才考虑小范围编辑，然后再次核对商品和其他文字。
+
+可对照[详情图母版、上传件和页面的排查方法](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/05-detail-page.md#商品详情图小字模糊是原稿导出还是页面问题)，判断该找排版同事还是店铺维护方。
+
 ## FAQ
 
 **Q: GPT Image 2.5 能保证中文完全正确吗？**
@@ -141,7 +150,7 @@
 
 ## EN Summary
 
-Create short text-bearing visuals through [GPT Image 2.5 on Flux Art](https://flux-art.cn/en/models/gpt-image-2-5) using exact copy and explicit placement. Proofread every output. Use a separate layout tool for dense text, required statements and precise typography.
+Create short text-bearing visuals through [GPT Image 2.5 on Flux Art](https://flux-art.cn/en/models/gpt-image-2-5) using exact copy and explicit placement. Proofread every output, use a separate layout tool for dense or required text, and use clear real-world label imagery for packaging details. If small print blurs only after export or on the storefront, keep the approved visual and fix the affected export or display.
 
 ---
 
