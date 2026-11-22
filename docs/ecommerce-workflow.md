@@ -1,6 +1,6 @@
 # GPT Image 2.5 电商商品图：在线使用入口与套图衔接｜Flux Art
 
-在 [Flux Art GPT Image 2.5 工作台](https://flux-art.cn/zh/models/gpt-image-2-5)中，可以先用真实商品参考图验证单张主视觉或场景修改，再把已确认的素材交接给电商专用工具。模型页适合直接选择 Flare 或 Sunburst；商品套图、SKU 和 A+ 详情页则按各自工具的实际流程使用，不能把它们全部视为 GPT Image 2.5 的同一功能。
+用 GPT Image 2.5 做电商图，可以先在 [Flux Art 工作台](https://flux-art.cn/zh/models/gpt-image-2-5)选择 Flare 或 Sunburst，用真实参考图验证一张主视觉或场景图，再交接到商品套图、SKU 或 A+ 详情页。做 GPT Image 2.5 商品尺寸图时，模型可以帮助准备留白底图，但标注必须来自同一 SKU 的核准规格和准确视图。专用工具按各自页面使用，不等同于模型功能。
 
 [GPT Image 2.5 使用渠道](../README.md) · [English model entry](https://flux-art.cn/en/models/gpt-image-2-5)
 
@@ -87,6 +87,12 @@ For an unwanted person or prop, use the separate [Object Remover tool](https://f
 如果生成结果混合了不同版本的特征，应退回重做，不要用“效果示意”掩盖商品信息不一致。涉及尺寸或性能的说明应引用真实规格，不能由图片推断。
 
 把代表图交给 [SKU 批量图](https://flux-art.cn/zh/ai-ecommerce/sku-batch)前，可先整理为“一行一个完整 SKU”，再按 Enter 逐条添加，或用逗号、分号、换行分隔后粘贴。提交前核对标签数量与所需输出；当前生成数量受可用并发影响。页面的“AI 自由设计 / 参考模板”是工作模式，不表示它固定调用 GPT Image 2.5；模板也不能替代真实 SKU 资料。
+
+## GPT Image 2.5 商品尺寸图可以从照片估尺寸吗？
+
+不要从生成图反推尺寸。以带把手的收纳箱为例：如果只需为规格卡准备一张无字背景，可用 Flare 或 Sunburst 编辑背景，并检查把手、卡扣和箱体开合状态是否仍与参考图一致。要标最大外宽时，优先采用能看见两个测量端点的实拍，将批准数值和尺寸线放在独立排版层。输出把手位置变了，或一侧被遮住时，不沿着新轮廓挪动测量线，应换回可靠实拍。
+
+同一个 SKU 的尺寸说明要随交付图保留测量对象、单位与规格来源；切换模型版本或图片比例都不会改变这个数据来源。需要区分内腔和发货外箱时，见[商品尺寸图指南](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/product-dimension-image.md)。
 
 ## 从代表图交接到可追踪批次
 
