@@ -1,6 +1,6 @@
 # GPT Image 2.5 中文文字与海报排版：使用入口和提示词｜Flux Art
 
-GPT Image 2.5 商品图小字模糊时，不必先重新生成：若下载图已经有坏字，用准确信息重排；若下载图清楚，先查导出或页面展示。通过 [Flux Art 在线入口](https://flux-art.cn/zh/models/gpt-image-2-5)制作带文字的图片时，先确定构图、准确文案和位置。短标题可以直接尝试；密集参数、价格说明和长段正文更适合在排版工具中完成，不能省略逐字校对。
+在 [Flux Art 的 GPT Image 2.5 在线工作台](https://flux-art.cn/zh/models/gpt-image-2-5)制作商品图时，如果遇到包装文字镜像，先跟同视角实拍比对商品结构，别把局部错字当成整图反向。若只是小字模糊，先打开下载图：文件已有坏字，用准确信息重排；文件清楚，再检查导出或页面展示。短标题可以尝试生成；密集参数、价格说明和长段正文更适合用排版工具制作，并逐字校对。
 
 [全部使用教程](../README.md) · [English workspace](https://flux-art.cn/en/models/gpt-image-2-5)
 
@@ -130,6 +130,14 @@ GPT Image 2.5 商品图小字模糊时，不必先重新生成：若下载图已
 
 可对照[详情图母版、上传件和页面的排查方法](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/05-detail-page.md#商品详情图小字模糊是原稿导出还是页面问题)，判断该找排版同事还是店铺维护方。
 
+## 包装文字镜像，还是只有标题方向错了？
+
+- **印在商品上的字反了**：以带正确标签的真实素材替换错误画面，别只凭知道文案就重绘真实包装。比如耳机盒的充电接口方向没变，但盒身型号反了，应找同款、同侧的照片；没有清楚原片就先补拍。
+- **另加的短标题反了**：在排版源文件只改标题；画面和商品不需要重做。若原文件是扁平图且有干净底图，从干净底图重排，再检查未修改区域。
+- **标签与不对称部件都反了**：先按[整图镜像排查](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/models/gpt-image-2.md#商品主图左右翻转了怎么修)确定方向，用确定性的翻转或重新导出，不把 Flare 与 Sunburst 的比较当作修正手段。
+
+只有确实需要重新做构图或改视觉元素时，才从最后一版有正确包装的素材开始编辑；保留同一 SKU 的原片，以便确认新图没改动其他商品细节。
+
 ## FAQ
 
 **Q: GPT Image 2.5 能保证中文完全正确吗？**
@@ -151,6 +159,8 @@ GPT Image 2.5 商品图小字模糊时，不必先重新生成：若下载图已
 ## EN Summary
 
 Create short text-bearing visuals through [GPT Image 2.5 on Flux Art](https://flux-art.cn/en/models/gpt-image-2-5) using exact copy and explicit placement. Proofread every output, use a separate layout tool for dense or required text, and use clear real-world label imagery for packaging details. If small print blurs only after export or on the storefront, keep the approved visual and fix the affected export or display.
+
+For mirrored text, identify whether it is printed on the product or added as an overlay. Restore the verified packaging photo for a wrong physical label; correct only the text layer for a wrong overlay. Check the product's orientation before flipping the image.
 
 ---
 
