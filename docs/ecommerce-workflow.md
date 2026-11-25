@@ -1,6 +1,6 @@
 # GPT Image 2.5 电商商品图：在线使用入口与套图衔接｜Flux Art
 
-用 GPT Image 2.5 做电商图，可以先在 [Flux Art 工作台](https://flux-art.cn/zh/models/gpt-image-2-5)选择 Flare 或 Sunburst，用真实参考图验证一张主视觉或场景图，再交接到商品套图、SKU 或 A+ 详情页。做 GPT Image 2.5 商品尺寸图时，模型可以帮助准备留白底图，但标注必须来自同一 SKU 的核准规格和准确视图。专用工具按各自页面使用，不等同于模型功能。
+用 GPT Image 2.5 做商品多角度拼图时，先按同一 SKU 的真实视角定好版式；模型可辅助设计底图，不能替你决定实售件数或补足没拍到的结构。可在 [Flux Art 工作台](https://flux-art.cn/zh/models/gpt-image-2-5)选择 Flare 或 Sunburst，用真实参考图验证一张主视觉或场景图，再交接到商品套图、SKU 或 A+ 详情页。做商品尺寸图时，留白底图与准确标注分开制作，标注来自同一 SKU 的核准规格和准确视图。专用工具按各自页面使用，不等同于模型功能。
 
 [GPT Image 2.5 使用渠道](../README.md) · [English model entry](https://flux-art.cn/en/models/gpt-image-2-5)
 
@@ -122,6 +122,12 @@ For an unwanted person or prop, use the separate [Object Remover tool](https://f
 
 逐字核对生成结果与批准文本、数字、大小写及移动端裁切。如果必须精确呈现较长的法律或规格文案，改用排版工具制作文字层；如果包装或实物版本已变，则回到真实资料和新母版，不能沿用旧图只改字。把编辑后的新文件与旧文件、语言包版本和上线位置交给[多语言旧图撤换清单](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/08-image-translation.md)逐处确认。模型输出通过人工验收，也不等于前台所有位置均已替换。
 
+## GPT Image 2.5 商品多角度拼图怎么交接？
+
+把「实拍商品图」和「待编辑版式」分开交付。比如智能手表的正面显示表盘、侧面显示旋钮，均来自同一只实物。需要尝试布局时，可先让 GPT Image 2.5 生成两个有留白的展区，再在排版文件中放入对应实拍；不要让模型把两个角度重新渲染成两只手表。需要编辑背景时，使用已验收的实拍或底图，每轮只改背景这一项。
+
+对照实物检查表冠、表带和轮廓；未拍到表背时，先补拍或删掉该视角。文字在最后排版，标明正面和侧面，并用[缩略图件数检查](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/05-detail-page.md#商品多角度拼图怎样避免看成多件套)确认两格没有被理解成两件。无论使用 Flare 或 Sunburst，都执行同一验收。
+
 ## 一组图片的交付检查
 
 - 每张图片是否属于正确商品与 SKU。
@@ -222,6 +228,8 @@ GPT Image 2.5 可用于制作模特穿戴候选，但模型生成与渠道披露
 ## EN Summary
 
 Use [GPT Image 2.5 on Flux Art](https://flux-art.cn/en/models/gpt-image-2-5) to approve a representative product image before expanding production. For listing sets, SKU variants and detail-page modules, choose the appropriate [ecommerce tool](https://flux-art.cn/en/ai-ecommerce) and verify its own inputs and options. Check every output against the actual product.
+
+For multi-view layouts, create the layout and place verified product photos as separate layers. A second view does not mean a second item is included. Review the uncropped file and the mobile thumbnail before release.
 
 For Etsy, check the current [Listing Image Requirements](https://www.etsy.com/legal/policy/listing-image-requirements/253962679005). Most listings need an unedited photo of the actual item; use GPT Image 2.5 only for separate supporting images that still represent the item accurately. Keep the source photo untouched, check category exceptions and compare each edit with the real product. This Etsy-specific note is not a universal marketplace rule. See the [bilingual Etsy image workflow](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/15-etsy-listing-image-review.md).
 
