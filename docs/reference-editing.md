@@ -1,6 +1,6 @@
 # GPT Image 2.5 参考图编辑教程：换背景与局部修改｜Flux Art
 
-做 GPT Image 2.5 参考图编辑时，从 [Flux Art 在线工作台](https://flux-art.cn/zh/models/gpt-image-2-5)选择图片编辑，上传有权使用的参考图，并分别写清“保留什么”和“改什么”。比起一句“优化这张图”，明确修改边界更方便在结果里逐项检查。
+做 GPT Image 2.5 参考图编辑时，从 [Flux Art 在线工作台](https://flux-art.cn/zh/models/gpt-image-2-5)选择图片编辑，上传有权使用的参考图，并分别写清“保留什么”和“改什么”。透明商品换背景时，瓶内透出的环境也要检查，但标签、瓶盖和液面不是背景的一部分。若原材质无法从旧背景分辨，先补拍，不扩大编辑范围。
 
 [使用入口总览](../README.md) · [English workspace](https://flux-art.cn/en/models/gpt-image-2-5)
 
@@ -42,6 +42,12 @@ GPT Image 2.5 适合对已通过主体做有界编辑，但“服装上身、只
 用 GPT Image 2.5 参考图编辑给香水瓶换背景时，若场景参考里也有一个瓶子，先回到原始商品图。只要浅石台和左侧窗光，就试一次仅用原始商品图加文字的编辑；确实要借场景的取景和空间关系，再换一张不含另一只瓶子的场景参考。需要比较 Flare 与 Sunburst 时，两次使用同一套干净素材，别同时换模型和参考图。
 
 结果如出现第二只瓶子、原瓶盖变形或标签成为别款，先退回该候选，不在已经混入其他商品的图上盖字或描边。比较干净素材和原稿里的瓶肩、瓶盖、标签与接触阴影，通过后再扩展其他背景。更多输入处理见[场景参考图的裁切与选用](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/03-scene-fusion.md#场景参考图里有另一件商品怎么办)。
+
+### 透明玻璃换背景，变化应到哪里为止？
+
+如果清玻璃香水瓶的背景要从木桌换为浅石台面，可以从瓶头、标签和透明区都清楚的实拍出发。把修改约束写成「只将木桌换为浅石台面；玻璃透明区呈现新环境，保持瓶口、厚底、标签、瓶盖、液体颜色与液面不变」。先试一张候选，和同一张原图并排；若需比较 Flare 与 Sunburst，保持原图、目标台面与验收标准相同。
+
+瓶外换好而瓶内仍透出木纹，先用[透景、瓶边和标签的验收表](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/03-scene-fusion.md#透明商品换背景后瓶身还看得到旧背景怎么办)找出原片可保留的信息。若标签变形、液面移动或透明变成磨砂，退回原图或补拍；不要用后续编辑遮住错误。最终按实际投放背景验收，不能用浅底的通过结论替代深底验收。
 
 ## 场景二：只改一种材质
 
@@ -205,6 +211,8 @@ GPT Image 2.5 适合对已通过主体做有界编辑，但“服装上身、只
 ## EN Summary
 
 Use [GPT Image 2.5 reference editing on Flux Art](https://flux-art.cn/en/models/gpt-image-2-5) with authorized, readable source images. Separate preserved details from the intended change, inspect both, and return to the last accepted image if revisions drift.
+
+When replacing the backdrop behind clear glass, compare the view through it with the intended scene. Reject changes to the label, fill level or material; if the old scene cannot be separated from the product in the source, take a new photo.
 
 ---
 
