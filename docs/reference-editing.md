@@ -1,6 +1,6 @@
 # GPT Image 2.5 参考图编辑教程：换背景与局部修改｜Flux Art
 
-做 GPT Image 2.5 参考图编辑时，从 [Flux Art 在线工作台](https://flux-art.cn/zh/models/gpt-image-2-5)选择图片编辑，上传有权使用的参考图，并分别写清“保留什么”和“改什么”。透明商品换背景时，瓶内透出的环境也要检查，但标签、瓶盖和液面不是背景的一部分。若原材质无法从旧背景分辨，先补拍，不扩大编辑范围。
+做 GPT Image 2.5 参考图编辑时，从 [Flux Art 在线工作台](https://flux-art.cn/zh/models/gpt-image-2-5)选择图片编辑，上传有权使用的参考图，并分别写清“保留什么”和“改什么”。商品图上传后颜色不一样时，如果已验收母版仍与实物相符，先查交付副本，不急着重跑。透明商品换背景时，瓶内透景也要核对；标签、瓶盖和液面不属于背景，原材质无法分辨时先补拍。
 
 [使用入口总览](../README.md) · [English workspace](https://flux-art.cn/en/models/gpt-image-2-5)
 
@@ -149,6 +149,10 @@ GPT Image 2.5 适合对已通过主体做有界编辑，但“服装上身、只
 若已验收母版只在某一块屏幕上偏色，先检查该设备的显示模式、亮度和色彩配置，不要让 GPT Image 2.5 为单一显示器重画正确母版。实物、色卡或包装资料互相冲突时也应暂停，不能用 Flare 或 Sunburst 的结果决定真实商品颜色。
 
 真实 SKU 换色可进入[产品换色](https://flux-art.cn/zh/ai-ecommerce/product-recolor)，但应为目标 SKU 准备实物图、批准色卡与明确映射；该工具按任务组织，不代表它使用 GPT Image 2.5。无论走哪条路径，输出后都要重新检查材质高光、包装文字、Logo、阴影和未要求变化的区域。完整判断表见[商品颜色排错流程](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/07-troubleshooting.md)。
+
+### 上传后才变色，还要换 Flare 或 Sunburst 吗？
+
+母版在色彩管理查看环境中仍与批准色卡一致，就不必切换 Flare / Sunburst，也不用写补偿色偏的提示词。先按[上传色差排查](https://github.com/flux-art-ai/flux-art-ecom-image-workflow/blob/main/docs/07-troubleshooting.md#商品图上传后颜色不一样怎么排查)检查上传副本与页面图片。如果母版已经偏离源参考，才回到编辑前的正确版本；先核对同一光线下的实物和参考图，再限定一个修改目标。只在页面上看见偏差，不能证明模型改错了商品颜色。
 
 ## 商品比例不对时，能用 GPT Image 2.5 修透视吗？
 
